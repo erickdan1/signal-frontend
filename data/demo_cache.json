@@ -1,0 +1,2357 @@
+{
+  "gerado_em": "2026-06-02T02:50:42.346028+00:00",
+  "threshold": 2.0,
+  "janela": 14,
+  "brier_score": 0.142,
+  "sensibilidade": [
+    {
+      "z_threshold": 1.5,
+      "signals_brutos": 3487,
+      "signals_dedup": 205,
+      "moderados": 3,
+      "significativos": 20,
+      "fortes_raros": 182,
+      "alto_volume": 194
+    },
+    {
+      "z_threshold": 2.0,
+      "signals_brutos": 2668,
+      "signals_dedup": 204,
+      "moderados": 22,
+      "significativos": 182,
+      "fortes_raros": 0,
+      "alto_volume": 193
+    },
+    {
+      "z_threshold": 2.5,
+      "signals_brutos": 1854,
+      "signals_dedup": 201,
+      "moderados": 188,
+      "significativos": 13,
+      "fortes_raros": 0,
+      "alto_volume": 190
+    }
+  ],
+  "events": [
+    {
+      "id": "cd36e5b68998",
+      "data": "2026-05-22",
+      "questao": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+      "questao_pt": "A MicroStrategy vai vender algum Bitcoin até 31 de maio de 2026?",
+      "evento": "MicroStrategy sells any Bitcoin by ___ ?",
+      "categoria": "Cripto",
+      "prob_yes": 9.5,
+      "variacao": -5.0,
+      "zscore": -3.81,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 15.5,
+      "prob_depois": 10.5,
+      "volume": 8591257.866587894,
+      "end_date": "2026-07-01",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de a MicroStrategy vender algum Bitcoin até 31 de maio de 2026 caiu <b>6</b> não, caiu <b>5.0</b> pontos percentuais, de <b>15.5%</b> para <b>9.5%</b>, uma variação cerca de <b>4</b> vezes fora do padrão histórico deste contrato. Essa mudança reflete uma alteração significativa nas expectativas dos investidores em relação às ações da MicroStrategy em relação ao Bitcoin. A probabilidade inicial de <b>15.5%</b> indicava uma certa expectativa de venda, mas a queda para <b>9.5%</b> sugere que os investidores estão revisando suas apostas.</p>\n\n<p>Esse contrato mede a probabilidade de a MicroStrategy, uma empresa conhecida por suas apostas significativas em Bitcoin, vender parte de suas reservas de criptomoedas até o final de maio de 2026. A redução na probabilidade de venda pode indicar que os investidores acreditam que a MicroStrategy manterá sua estratégia de investimento em Bitcoin, pelo menos no curto prazo. Com um volume total negociado de <b>US$ 8,591,258</b>, esse movimento sugere que os investidores estão monitorando de perto as ações da MicroStrategy e suas implicações para o mercado de criptomoedas. Como o resultado final ainda está em aberto, os investidores continuam a observar as decisões da MicroStrategy e como elas afetarão o mercado de Bitcoin.</p>\n\n<p>A queda na probabilidade de venda de Bitcoin pela MicroStrategy pode ter implicações para os investidores brasileiros que operam no mercado de criptomoedas. Isso pode influenciar a confiança dos investidores em relação ao mercado de criptomoedas e, consequentemente, afetar a demanda por Bitcoin e outras criptomoedas no Brasil. Além disso, a manutenção da estratégia de investimento em Bitcoin pela MicroStrategy pode ser vista como um sinal de estabilidade no mercado, o que pode atrair mais investidores para o setor de criptomoedas.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 7.173950265s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "25714007960293389110960044475283546872601238755063051359394740854408462452120",
+      "gerado_em": "2026-05-31T23:42:55.642591+00:00"
+    },
+    {
+      "id": "9215153cf9ed",
+      "data": "2026-05-15",
+      "questao": "Will no Fed rate cuts happen in 2026?",
+      "questao_pt": "O Fed vai fazer zero cortes de juros em 2026?",
+      "evento": "How many Fed rate cuts in 2026?",
+      "categoria": "FOMC",
+      "prob_yes": 67.0,
+      "variacao": -5.2,
+      "zscore": -3.71,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 72.0,
+      "prob_depois": 67.0,
+      "volume": 4545191.028423062,
+      "end_date": "2026-12-31",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de não haver cortes de juros pelo Fed em 2026 caiu <b>5.2</b> pontos percentuais, passando de <b>72.0%</b> para <b>67.0%</b>, uma variação que é cerca de <b>4</b> vezes fora do padrão histórico deste contrato. Essa mudança sinaliza uma alteração significativa nas expectativas dos investidores em relação à política monetária do Federal Reserve nos Estados Unidos. A probabilidade atual de <b>67.0%</b> indica que os investidores estão menos certos de que o Fed manterá as taxas de juros sem cortes em 2026.</p>\n\n<p>Esse contrato mede a expectativa do mercado em relação à política monetária do Fed, especificamente se haverá cortes de juros em 2026. A redução na probabilidade de não haver cortes de juros pode indicar que os investidores estão começando a considerar a possibilidade de uma mudança na política monetária, o que sugere que a economia pode estar enfrentando desafios que requerem uma ajuste nas taxas de juros. Com um volume total de <b>US$ 4,545,191</b>, esse movimento reflete a opinião de uma grande base de investidores. No entanto, como o resultado final ainda está em aberto, é preciso aguardar para ver se o mercado acertou ou errou em suas expectativas.</p>\n\n<p>A mudança nas expectativas em relação à política monetária do Fed pode ter um impacto significativo no câmbio, afetando o valor do real em relação ao dólar. Se os investidores começarem a esperar cortes de juros, isso pode levar a uma redução na atratividade do dólar, o que poderia resultar em uma valorização do real. Além disso, a decisão do Copom, o comitê de política monetária do Banco Central do Brasil, também pode ser influenciada pelas expectativas em relação à política monetária nos Estados Unidos, o que pode afetar o custo do crédito no Brasil.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 38.007712942s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "12403602920039269077597917340921667997547115084613238528792639013246536343316",
+      "gerado_em": "2026-05-31T23:44:24.656485+00:00"
+    },
+    {
+      "id": "bebac9cc5095",
+      "data": "2026-03-18",
+      "questao": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 25 pontos-base na reunião de junho 2026?",
+      "evento": "Fed Decision in June?",
+      "categoria": "FOMC",
+      "prob_yes": 9.5,
+      "variacao": -14.0,
+      "zscore": -3.77,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 27.5,
+      "prob_depois": 9.5,
+      "volume": 9433058.81564191,
+      "end_date": "2026-06-17",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de o Fed cortar os juros em 25 pontos-base na reunião de junho de 2026 caiu 14.0 pontos percentuais, passando de <b>27.5%</b> para <b>9.5%</b>. Essa variação é cerca de 4 vezes fora do padrão histórico deste contrato, indicando uma mudança significativa na percepção dos investidores sobre as decisões futuras do Fed. A redução abrupta na probabilidade sugere que os investidores estão revisitando suas expectativas em relação à política monetária do Fed.</p>\n\n<p>Esse contrato mede a probabilidade de uma redução nos juros pelo Fed, o que pode indicar uma mudança na direção da política monetária. A queda na probabilidade de um corte de juros pode sugerir que os investidores estão prevendo uma manutenção ou até um aumento das taxas de juros, o que pode ter implicações para a economia global. Com um volume total negociado de <b>US$ 9,433,059</b>, esse movimento reflete a opinião coletiva de milhares de investidores. No entanto, como o resultado final ainda está em aberto, é preciso aguardar para ver se o mercado acertou ou errou em suas previsões.</p>\n\n<p>A redução na probabilidade de um corte de juros pelo Fed pode ter implicações para o custo do crédito no Brasil, possivelmente aumentando os juros para financiamentos e hipotecas. Além disso, pode influenciar as decisões do Copom, que pode manter ou ajustar as taxas de juros no país. Com o mercado brasileiro atento às decisões do Fed, essas mudanças podem afetar a bolsa e as exportadoras, impactando a economia nacional.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 33.83540833s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "65193234666628291664907888364936366210889305490897648116746073820519263548476",
+      "gerado_em": "2026-05-31T23:58:28.776298+00:00"
+    },
+    {
+      "id": "5780da45bb87",
+      "data": "2026-02-23",
+      "questao": "Will Bitcoin dip to $60,000 in February?",
+      "questao_pt": "O Bitcoin vai cair a US$ 60.000 em fevereiro?",
+      "evento": "What price will Bitcoin hit in February?",
+      "categoria": "Cripto",
+      "prob_yes": 41.0,
+      "variacao": 28.5,
+      "zscore": 3.7,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 15.0,
+      "prob_depois": 26.0,
+      "volume": 7282065.829222,
+      "end_date": "2026-03-01",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Bitcoin cair a US$ 60.000 em fevereiro subiu <b>26,0%</b> pontos percentuais, passando de <b>15,0%</b> para <b>41,0%</b>, uma variação que subiu <b>26,0%</b> não, subiu <b>28,5</b> pontos percentuais. Esta mudança foi cerca de <b>4</b> vezes fora do padrão histórico deste contrato, indicando um movimento significativo no mercado de apostas.</p>\n<p>Este contrato mede a percepção do mercado sobre a possibilidade de o Bitcoin atingir um valor específico em um período determinado, e o movimento observado sugere que os investidores podem estar se tornando mais céticos sobre a estabilidade do mercado de criptomoedas. Com um volume total de <b>US$ 7,282,066</b>, o contrato atraiu uma atenção significativa, e o resultado final mostrou que o mercado errou a aposta, pois o Bitcoin não caiu para US$ 60.000 em fevereiro. Isso pode indicar que os investidores estão revisando suas estratégias e expectativas para o mercado de criptomoedas.</p>\n<p>O impacto desta mudança no mercado de criptomoedas pode ser sentido no Brasil, especialmente em relação ao custo do crédito e às decisões de investimento em exchanges locais. Com a volatilidade do mercado de criptomoedas, os investidores brasileiros podem estar mais cautelosos em relação a investir em criptomoedas, o que pode afetar a liquidez e a confiança no mercado. Além disso, a regulação da CVM pode ser influenciada por movimentos como este, o que pode levar a mudanças nas regras e normas para os investidores de criptomoedas no Brasil.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 91,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 21,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 53.32318762s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "10173760944708366003313904598971409987613016696437105074768621813128448039101",
+      "gerado_em": "2026-05-31T23:45:09.408051+00:00"
+    },
+    {
+      "id": "8e7e86c9af69",
+      "data": "2026-02-16",
+      "questao": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+      "questao_pt": "O Bitcoin vai cair a US$ 15.000 até o final de 2026?",
+      "evento": "What price will Bitcoin hit in 2026?",
+      "categoria": "Cripto",
+      "prob_yes": 11.2,
+      "variacao": 3.9,
+      "zscore": 3.77,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 7.3,
+      "prob_depois": 9.6,
+      "volume": 4785832.950220884,
+      "end_date": "2027-01-01",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de o Bitcoin cair a US$ 15.000 até o final de 2026 subiu <b>3.9</b> pontos percentuais, alcançando <b>11.2%</b> após estar em <b>7.3%</b> anteriormente. Essa variação é cerca de <b>4</b> vezes fora do padrão histórico deste contrato, indicando um movimento significativo no mercado. Isso sugere que os investidores estão se tornando mais pessimistas sobre o desempenho do Bitcoin nos próximos meses.</p>\n\n<p>Esse contrato mede a confiança dos investidores em relação ao valor do Bitcoin até o final de 2026, e o movimento recente pode indicar que os investidores estão começando a questionar a capacidade do Bitcoin de manter seu valor atual. Com um volume total de <b>US$ 4,785,833</b> negociado, o mercado está demonstrando um grande interesse nesse contrato. O fato de a probabilidade ter subido para <b>11.2%</b> e depois ter caído para <b>9.6%</b> três dias depois sugere que os investidores estão divididos sobre o futuro do Bitcoin, e o resultado final ainda é incerto.</p>\n\n<p>O aumento da probabilidade de o Bitcoin cair a US$ 15.000 pode ter um impacto significativo no mercado de criptomoedas no Brasil, especialmente para os investidores brasileiros que possuem Bitcoin. Isso pode levar a uma diminuição na confiança dos investidores e, consequentemente, a uma redução no valor das criptomoedas no mercado brasileiro. Além disso, as exchanges brasileiras podem precisar se adaptar a essa nova realidade e encontrar maneiras de mitigar os riscos para seus clientes.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 91,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 21,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 43.468151901s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "63985397218239656926367525871649971575041102854345777114360978052613472299768",
+      "gerado_em": "2026-05-31T23:43:19.122437+00:00"
+    },
+    {
+      "id": "4c8d080f607b",
+      "data": "2026-02-05",
+      "questao": "Will the Fed decrease interest rates by 25 bps after the March 2026 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 25 pontos-base na reunião de março 2026?",
+      "evento": "Fed decision in March?",
+      "categoria": "FOMC",
+      "prob_yes": 18.5,
+      "variacao": 8.0,
+      "zscore": 3.73,
+      "magnitude": "Significativo",
+      "direcao": "alta",
+      "prob_antes": 7.5,
+      "prob_depois": 17.5,
+      "volume": 87103283.7263213,
+      "end_date": "2026-03-18",
+      "resultado": "No",
+      "narrativa": "<p>Investidores mudaram rapidamente suas apostas sobre a política monetária americana, elevando a probabilidade de que \"O Fed vai cortar os juros em 25 pontos-base na reunião de março 2026?\". Em apenas um dia, a chance desse corte saltou de <b>7.5%</b> para <b>18.5%</b>, uma variação cerca de 4 vezes maior do que o comportamento normal deste contrato.</p><p>Esse movimento no mercado preditivo, que movimentou mais de <b>US$ 87 milhões</b>, sugeriu que os participantes passaram a ver uma chance significativamente maior de o Federal Reserve iniciar um ciclo de afrouxamento monetário já em março de 2026. A aposta refletia expectativas de que dados econômicos ou declarações de membros do Fed poderiam apontar para uma necessidade de estímulo. No entanto, o mercado errou a aposta, pois o Fed não cortou os juros em março de 2026.</p><p>Para o Brasil, a expectativa de juros mais baixos nos EUA, mesmo que não concretizada, tende a aliviar a pressão sobre o câmbio e pode dar mais espaço para o Banco Central brasileiro considerar seus próprios movimentos na taxa Selic, dependendo do cenário inflacionário doméstico.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 90,
+      "score_detalhes": {
+        "ancoragem_factual": 20,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "62938043365772447095885755955446362343142416536419862840923032141775380249586",
+      "gerado_em": "2026-05-31T22:42:21.880835+00:00"
+    },
+    {
+      "id": "125d5c4862fd",
+      "data": "2026-02-05",
+      "questao": "Will Bitcoin dip to $45,000 in February?",
+      "questao_pt": "O Bitcoin vai cair a US$ 45.000 em fevereiro?",
+      "evento": "What price will Bitcoin hit in February?",
+      "categoria": "Cripto",
+      "prob_yes": 7.1,
+      "variacao": 3.7,
+      "zscore": 3.7,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 3.4,
+      "prob_depois": 12.0,
+      "volume": 3710665.651806,
+      "end_date": "2026-03-01",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Bitcoin cair a <b>US$ 45.000</b> em fevereiro aumentou de <b>3.4%</b> para <b>7.1%</b>, uma alta de <b>3.7</b> pontos percentuais. Este movimento foi cerca de <b>4</b> vezes fora do padrão histórico deste contrato, indicando uma mudança significativa na percepção dos investidores.</p>\n\n<p>Este contrato monitora a expectativa de uma desvalorização acentuada do Bitcoin. A alta na probabilidade, que continuou a subir para <b>12.0%</b> três dias após o sinal, sugere que uma parcela crescente de investidores antecipava uma correção no preço da principal criptomoeda. Com um volume negociado de mais de <b>US$ 3,7 milhões</b>, o mercado refletiu uma preocupação considerável, embora, no final, a aposta tenha se mostrado incorreta.</p>\n\n<p>Para o Brasil, a alta de <b>3.7</b> pontos percentuais na probabilidade de o Bitcoin cair a <b>US$ 45.000</b> pode indicar um aumento da cautela entre investidores locais. Isso sugere que alguns detentores de criptoativos no país, que frequentemente concentram suas posições em Bitcoin e Ethereum, poderiam ser levados a liquidar posições alavancadas para mitigar riscos diante de uma possível desvalorização.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "114837825043540833283672067889503269800770742012349287528082825707091415484982",
+      "gerado_em": "2026-06-02T02:50:07.847797+00:00"
+    },
+    {
+      "id": "8dd7946d12f8",
+      "data": "2026-01-29",
+      "questao": "Will Bitcoin dip to $85,000 in January?",
+      "questao_pt": "O Bitcoin vai cair a US$ 85.000 em janeiro?",
+      "evento": "What price will Bitcoin hit in January?",
+      "categoria": "Cripto",
+      "prob_yes": 99.9,
+      "variacao": 80.35,
+      "zscore": 3.74,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 21.5,
+      "prob_depois": 99.9,
+      "volume": 8583813.346589,
+      "end_date": "2026-02-01",
+      "resultado": "Yes",
+      "narrativa": "<p>A probabilidade de o Bitcoin cair a US$ 85.000 em janeiro subiu drasticamente, passando de <b>21.5%</b> para <b>99.9%</b>, uma variação de <b>80.4</b> pontos percentuais. Essa mudança é cerca de 4 vezes fora do padrão histórico deste contrato, indicando um movimento extremamente significativo no mercado. Com essa alteração, os investidores demonstram uma forte convicção de que o valor do Bitcoin atingirá o patamar de US$ 85.000 no mês de janeiro.</p>\n\n<p>Esse contrato mede a expectativa do mercado em relação ao desempenho do Bitcoin, e o movimento observado sugere que os investidores estão cada vez mais confiantes de que o preço da criptomoeda alcançará o valor especificado. Com um volume total de <b>US$ 8.583.813</b>, essa aposta não é apenas um movimento especulativo, mas sim uma indicação clara da direção que o mercado está tomando. O fato de o mercado ter acertado a aposta, com a probabilidade se mantendo em <b>99.9%</b> três dias após o sinal, reforça a ideia de que os investidores têm uma visão clara do futuro do Bitcoin.</p>\n\n<p>O impacto desse movimento para o mercado brasileiro de criptomoedas pode ser significativo, especialmente para investidores que apostam no desempenho do Bitcoin. A confiança dos investidores em uma queda do valor do Bitcoin pode influenciar as decisões de compra e venda de criptomoedas no Brasil, afetando o mercado local. Além disso, a regulação das criptomoedas no país pode ser influenciada por movimentos significativos no mercado global, como o observado nesse contrato.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 20.181877937s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "65596524896985010415844814777069255362767748488616308434723608750130614059462",
+      "gerado_em": "2026-05-31T23:43:42.489395+00:00"
+    },
+    {
+      "id": "b0ec3986fd1c",
+      "data": "2026-01-11",
+      "questao": "Will Bitcoin reach $110,000 by December 31, 2026?",
+      "questao_pt": "O Bitcoin vai atingir US$ 110.000 até o final de 2026?",
+      "evento": "What price will Bitcoin hit in 2026?",
+      "categoria": "Cripto",
+      "prob_yes": 61.5,
+      "variacao": -4.5,
+      "zscore": -3.7,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 66.0,
+      "prob_depois": 62.0,
+      "volume": 976269.8779179993,
+      "end_date": "2027-01-01",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de o Bitcoin atingir <b>US$ 110.000</b> até o final de <b>2026</b> caiu de <b>66.0%</b> para <b>61.5%</b>, uma queda de <b>4.5</b> pontos percentuais. Este movimento representa uma variação cerca de <b>4</b> vezes fora do padrão histórico deste contrato.</p><p>Este contrato mede a confiança do mercado na valorização expressiva do Bitcoin a longo prazo. A queda na probabilidade sugere que investidores estão revisando para baixo suas expectativas de um salto tão acentuado no preço da criptomoeda nos próximos anos. Com um volume negociado de <b>US$ 976.270</b>, o mercado refletiu essa mudança de percepção de forma significativa. Três dias após o sinal, a probabilidade se estabilizou em <b>62.0%</b>, e o resultado final do contrato ainda está em aberto.</p><p>Para o Brasil, a queda de <b>4.5</b> pontos percentuais na expectativa de o Bitcoin atingir <b>US$ 110.000</b> até <b>2026</b> pode indicar uma revisão para baixo das expectativas de valorização extrema. Isso, por sua vez, pode desacelerar a entrada de novos investidores no mercado cripto brasileiro, que muitas vezes são atraídos por projeções de ganhos exponenciais.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "74843373582432484858627201602003648342208168490128239235522790524493414154441",
+      "gerado_em": "2026-06-02T02:49:57.271760+00:00"
+    },
+    {
+      "id": "3d8497470817",
+      "data": "2026-01-09",
+      "questao": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 50 pontos-base ou mais na reunião de abril 2026?",
+      "evento": "Fed decision in April?",
+      "categoria": "FOMC",
+      "prob_yes": 8.3,
+      "variacao": 4.15,
+      "zscore": 3.67,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 4.4,
+      "prob_depois": 6.7,
+      "volume": 66025383.9220003,
+      "end_date": "2026-04-29",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Fed cortar os juros em 50 pontos-base ou mais na reunião de abril de 2026 subiu de <b>4.4%</b> para <b>8.3%</b>, uma variação de <b>4.2 pontos percentuais</b>, cerca de 4 vezes fora do padrão histórico deste contrato. O movimento ocorreu em meio a expectativas de uma economia americana mais fraca no primeiro trimestre de 2026.</p>\n\n<p>Este contrato mede a confiança dos investidores na possibilidade de uma redução significativa dos juros pelo Federal Reserve. A elevação da probabilidade sugere que os investidores estão cada vez mais preocupados com um cenário econômico desafiador, que pode levar o Fed a tomar medidas mais drásticas para estimular a economia. O volume negociado neste contrato foi de <b>US$ 66,025,384</b>, indicando um alto interesse do mercado. No entanto, o mercado acabou errando a aposta, já que o Fed não realizou o corte esperado.</p>\n\n<p>Para o Brasil, um possível corte de juros nos EUA pode tornar o real mais atrativo para investidores estrangeiros, potencialmente fortalecendo a moeda brasileira. Além disso, um ambiente de juros mais baixos nos EUA pode reduzir o custo do crédito no Brasil, facilitando o acesso a financiamentos e empréstimos. No entanto, é importante observar que esses efeitos podem ser mitigados por outros fatores econômicos internos.</p>",
+      "modelo_usado": "Qwen 2.5 72B (OpenRouter)",
+      "score": 90,
+      "score_detalhes": {
+        "ancoragem_factual": 20,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 19.556174424s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "erro: Groq rate limit: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ksxpjkswezstwjqymbx163a1` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 10207, Requested 1798. Please try again in 25ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+        },
+        {
+          "modelo": "Gemma 3 12B (OpenRouter)",
+          "status": "erro: OpenRouter sem choices: {'message': 'No endpoints found for google/gemma-3-12b-it:free.', 'code': 404}"
+        },
+        {
+          "modelo": "Qwen 2.5 72B (OpenRouter)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "18690049947242812495755151360212639738977254879109748949267393375856311641700",
+      "gerado_em": "2026-05-31T23:20:56.902252+00:00"
+    },
+    {
+      "id": "75ccc2f21ef2",
+      "data": "2026-01-05",
+      "questao": "Will Bitcoin reach $95,000 in January?",
+      "questao_pt": "O Bitcoin vai atingir US$ 95000?",
+      "evento": "What price will Bitcoin hit in January?",
+      "categoria": "Cripto",
+      "prob_yes": 81.5,
+      "variacao": 10.5,
+      "zscore": 3.64,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.6×) — variação 3.6 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 71.0,
+      "prob_depois": 78.5,
+      "volume": 2243197.978554,
+      "end_date": "2026-02-01",
+      "resultado": "Yes",
+      "narrativa": "<p>A probabilidade de o Bitcoin atingir US$ 95.000 em janeiro subiu <b>10.5</b> pontos percentuais, passando de <b>71.0%</b> para <b>81.5%</b>, uma variação cerca de <b>4</b> vezes fora do padrão histórico deste contrato. Essa mudança reflete uma alteração significativa nas expectativas dos investidores em relação ao desempenho do Bitcoin no mercado de criptomoedas. A probabilidade final de <b>81.5%</b> indica um aumento na confiança dos investidores de que o Bitcoin alcançará o valor de US$ 95.000 em janeiro.</p>\n\n<p>Esse contrato mede a expectativa do mercado em relação ao desempenho do Bitcoin, e o aumento na probabilidade pode indicar que os investidores estão mais otimistas em relação ao futuro da criptomoeda. Com um volume total de <b>US$ 2,243,198</b>, o contrato sugere que os investidores estão dispostos a apostar significativamente no sucesso do Bitcoin. O resultado final, que confirmou a aposta, mostra que o mercado acertou em sua previsão, o que pode apontar para uma tendência de crescimento contínuo para a criptomoeda. Além disso, a variação na probabilidade pode sugerir que os investidores estão monitorando de perto os desenvolvimentos no mercado de criptomoedas e ajustando suas estratégias de acordo.</p>\n\n<p>O aumento na probabilidade de o Bitcoin atingir US$ 95.000 pode ter um impacto positivo no mercado de criptomoedas no Brasil, aumentando a confiança dos investidores brasileiros e potencialmente levando a um aumento no valor das criptomoedas negociadas nas exchanges locais. Além disso, o sucesso do Bitcoin pode influenciar a regulação das criptomoedas no país, com a CVM potencialmente revisando suas políticas em relação ao mercado de criptomoedas. Isso, por sua vez, pode afetar o custo de importações e a inflação doméstica, uma vez que as criptomoedas se tornam mais acessíveis e aceitas no mercado brasileiro.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 86,
+      "score_detalhes": {
+        "ancoragem_factual": 20,
+        "extensao": 25,
+        "contexto_economico": 21,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 42.032192366s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "4031132846844196883695870747593975059183828438525834177960621871803786384542",
+      "gerado_em": "2026-05-31T23:21:20.762711+00:00"
+    },
+    {
+      "id": "6bfdb3752364",
+      "data": "2026-01-01",
+      "questao": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+      "questao_pt": "A MicroStrategy vai vender algum Bitcoin até 30 de junho de 2026?",
+      "evento": "MicroStrategy sells any Bitcoin by ___ ?",
+      "categoria": "Cripto",
+      "prob_yes": 8.5,
+      "variacao": -4.0,
+      "zscore": -3.76,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 12.5,
+      "prob_depois": 9.5,
+      "volume": 5856251.593544008,
+      "end_date": "2026-07-01",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de a MicroStrategy vender qualquer Bitcoin até 30 de junho de 2026 caiu <b>4.0</b> pontos percentuais, passando de <b>12.5%</b> para <b>8.5%</b>, uma variação que é cerca de <b>4</b> vezes fora do padrão histórico deste contrato. Essa mudança reflete uma alteração significativa na percepção dos investidores sobre as intenções da MicroStrategy em relação ao seu portfólio de Bitcoin. A probabilidade inicial de <b>12.5%</b> já indicava um nível de incerteza, mas a queda para <b>8.5%</b> sugere que os investidores estão se tornando cada vez mais céticos sobre a possibilidade de a empresa vender seus ativos de Bitcoin no prazo estabelecido.</p>\n<p>Esse contrato mede a confiança dos investidores na estratégia de investimento em Bitcoin da MicroStrategy, e a redução na probabilidade de venda pode indicar que os investidores acreditam que a empresa manterá sua posição em Bitcoin. Com um volume total de <b>US$ 5,856,252</b>, o contrato atraiu uma atenção significativa, e o movimento pode sugerir que os investidores estão se ajustando às expectativas de que a MicroStrategy continue a segurar seus ativos de Bitcoin. A sequência de probabilidades, que passou de <b>12.5%</b> para <b>8.5%</b> e posteriormente para <b>9.5%</b> três dias depois, indica uma flutuação contínua nas percepções dos investidores, e como o resultado final ainda está em aberto, é prematuro dizer se o mercado acertou ou errou em suas apostas.</p>\n<p>A mudança na percepção sobre a estratégia de investimento em Bitcoin da MicroStrategy pode ter um impacto no mercado de criptomoedas como um todo, afetando a confiança dos investidores brasileiros em exchanges e na regulação da CVM. Além disso, a manutenção de uma grande posição em Bitcoin pela MicroStrategy pode influenciar a percepção de risco e a volatilidade do mercado, o que por sua vez pode afetar as decisões de investimento de outros players no mercado de criptomoedas.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 21.807073051s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "110251828161543119357013227499774714771527179764174739487025581227481937033858",
+      "gerado_em": "2026-05-31T23:58:41.190597+00:00"
+    },
+    {
+      "id": "4f6ee08b115d",
+      "data": "2026-01-01",
+      "questao": "Will Bitcoin hit $150k by December 31?",
+      "questao_pt": "Will Bitcoin hit $150k by December 31?",
+      "evento": "When will Bitcoin hit $150k?",
+      "categoria": "Cripto",
+      "prob_yes": 4.8,
+      "variacao": 4.75,
+      "zscore": 3.74,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 0.1,
+      "prob_depois": 3.6,
+      "volume": 1555669.585882,
+      "end_date": "2026-01-01",
+      "resultado": "No",
+      "narrativa": "<p>Disparou a probabilidade de o Bitcoin atingir <b>US$ 150.000</b> até 31 de dezembro, saltando de <b>0.1%</b> para <b>4.8%</b>. O movimento, que representa uma alta de <b>4.8</b> pontos percentuais, foi cerca de <b>4</b> vezes fora do padrão histórico deste contrato.</p><p>Este contrato mede a expectativa do mercado sobre um dos alvos mais ambiciosos para a criptomoeda. A alta na probabilidade de o Bitcoin atingir <b>US$ 150.000</b> em 2026 pode indicar um otimismo renovado entre os investidores, embora a probabilidade tenha recuado para <b>3.6%</b> três dias depois do sinal. O volume total negociado neste contrato foi de <b>US$ 1.555.670</b>, e o mercado, no final, errou a aposta.</p><p>Para o Brasil, a alta de <b>4.8</b> pontos percentuais na probabilidade de o Bitcoin atingir <b>US$ 150.000</b> pode ser interpretada por investidores brasileiros — especialmente os cerca de <b>15</b> milhões com conta em exchanges nacionais — como uma validação de tendência de alta. Isso sugere um potencial impacto no volume de negociação doméstico, à medida que mais participantes buscam capitalizar sobre o otimismo.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "51345161306887002552702771044155490460507594693596558109007253177086704498541",
+      "gerado_em": "2026-06-02T02:48:34.681242+00:00"
+    },
+    {
+      "id": "2e28571ccbb9",
+      "data": "2025-12-27",
+      "questao": "Will Bitcoin reach $120,000 by December 31, 2025?",
+      "questao_pt": "O Bitcoin vai atingir US$ 120.000 até o final de 2025?",
+      "evento": "What price will Bitcoin hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 50.1,
+      "variacao": 49.95,
+      "zscore": 3.74,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 0.1,
+      "prob_depois": 0.2,
+      "volume": 8257060.300168,
+      "end_date": "2026-01-01",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Bitcoin atingir <b>US$ 120.000</b> até o final de <b>2025</b> disparou, saltando de <b>0.1%</b> para <b>50.1%</b>. Esse movimento representa uma alta de <b>50.0</b> pontos percentuais, uma variação cerca de 4 vezes fora do padrão histórico deste contrato.</p><p>Este contrato do Signal mede a expectativa coletiva dos investidores sobre a valorização do Bitcoin. A súbita alta para <b>50.1%</b> pode indicar uma onda de otimismo ou a percepção de um evento catalisador iminente no mercado de criptomoedas, sugerindo que muitos acreditavam em uma forte recuperação ou em um novo ciclo de alta. No entanto, três dias após o sinal, a probabilidade reverteu drasticamente para <b>0.2%</b>, e o mercado, que movimentou um volume total de <b>US$ 8.257.060</b>, acabou errando a aposta.</p><p>Para o Brasil, a alta de <b>50.0</b> pontos percentuais na probabilidade de o Bitcoin atingir <b>US$ 120.000</b> pode ter sido percebida como uma validação de tendência de alta. Investidores brasileiros, especialmente os cerca de <b>15</b> milhões com contas em exchanges nacionais como Mercado Bitcoin e Binance BR, podem ter reagido a esse sinal, o que poderia impactar o volume de negociação doméstico e o apetite por risco em ativos digitais no país.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "20572254894388566434749427412990047074432984200146791571808682059731237563429",
+      "gerado_em": "2026-06-02T02:48:06.332850+00:00"
+    },
+    {
+      "id": "a83be3c2258e",
+      "data": "2025-12-18",
+      "questao": "Fed decreases interest rates by 25 bps after January 2026 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 25 pontos-base na reunião de janeiro 2026?",
+      "evento": "Fed decision in January?",
+      "categoria": "FOMC",
+      "prob_yes": 27.5,
+      "variacao": 6.0,
+      "zscore": 3.74,
+      "magnitude": "Significativo",
+      "direcao": "alta",
+      "prob_antes": 21.5,
+      "prob_depois": 25.0,
+      "volume": 101211542.667667,
+      "end_date": "2026-01-28",
+      "resultado": "No",
+      "narrativa": "<p>As apostas do mercado sobre \"O Fed vai cortar os juros em 25 pontos-base na reunião de janeiro 2026?\" subiram rapidamente, passando de <b>21.5%</b> para <b>27.5%</b> em apenas um dia. Este movimento de <b>6.0</b> pontos percentuais representa uma variação cerca de <b>4</b> vezes maior do que o comportamento normal deste contrato.</p><p>Essa alta na probabilidade de corte de juros pelo Federal Reserve sugeria que investidores estavam antecipando uma mudança na política monetária americana, talvez em resposta a dados de inflação ou crescimento econômico mais fracos do que o esperado. O contrato, que movimentou um volume expressivo de <b>US$ 101,211,543</b>, reflete a crença coletiva sobre as ações do banco central dos EUA. No entanto, o resultado final mostrou que o mercado errou a aposta, pois o corte não ocorreu.</p><p>Para o Brasil, a expectativa de juros mais baixos nos EUA, mesmo que não concretizada, tende a reduzir a pressão sobre o câmbio e pode abrir espaço para o Banco Central do Brasil (Copom) considerar um ritmo de cortes de juros mais agressivo no futuro. Um cenário de juros globais em queda geralmente favorece o fluxo de capital para mercados emergentes, impactando positivamente a Bolsa brasileira e o custo de financiamento local.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "92703761682322480664976766247614127878023988651992837287050266308961660624165",
+      "gerado_em": "2026-05-31T22:41:37.133160+00:00"
+    },
+    {
+      "id": "eef13dcb3008",
+      "data": "2025-12-17",
+      "questao": "MicroStrategy sells any Bitcoin in 2025?",
+      "questao_pt": "A MicroStrategy vai vender algum Bitcoin em 2025?",
+      "evento": "MicroStrategy sells any Bitcoin by ___ ?",
+      "categoria": "Cripto",
+      "prob_yes": 5.8,
+      "variacao": 4.0,
+      "zscore": 3.72,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 1.1,
+      "prob_depois": 1.6,
+      "volume": 17976157.529867,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de a MicroStrategy vender qualquer Bitcoin em 2025 subiu <b>4.0</b> pontos percentuais, passando de <b>1.1%</b> para <b>5.8%</b>, uma variação cerca de <b>4</b> vezes fora do padrão histórico deste contrato. Esse movimento súbito pode refletir uma mudança nas expectativas dos investidores em relação às estratégias de investimento da MicroStrategy em criptomoedas. A probabilidade inicial de <b>1.1%</b> indicava um baixo nível de confiança na venda de Bitcoin pela empresa, mas o salto para <b>5.8%</b> sugere um aumento significativo na percepção de que a MicroStrategy poderia reconsiderar sua posição em relação ao ativo digital.</p>\n\n<p>Esse contrato mede a percepção do mercado sobre a possibilidade de a MicroStrategy, uma empresa conhecida por suas apostas significativas em Bitcoin, decidir vender parte de sua reserva de criptomoedas em 2025. O movimento de <b>1.1%</b> para <b>5.8%</b> e posteriormente para <b>1.6%</b> três dias depois sugere que os investidores podem estar reavaliando suas estratégias de investimento em criptomoedas, considerando as flutuações no mercado e as decisões de empresas como a MicroStrategy. Com um volume total de <b>US$ 17,976,158</b>, esse contrato não apenas reflete as expectativas dos investidores, mas também pode influenciar a percepção geral do mercado sobre o setor de criptomoedas. No entanto, o resultado final indicou que o mercado errou em sua aposta, uma vez que a MicroStrategy não vendeu qualquer Bitcoin em 2025.</p>\n\n<p>O impacto desse movimento no mercado de criptomoedas pode ser significativo para os investidores brasileiros, especialmente aqueles que têm apostas em Bitcoin ou outras criptomoedas. A variação na percepção do mercado sobre a estratégia de investimento da MicroStrategy pode influenciar a confiança dos investidores em relação ao setor, afetando potencialmente o valor das criptomoedas e as decisões de investimento no Brasil. Além disso, a regulação das criptomoedas no país pode ser influenciada por movimentos significativos no mercado global, como o observado nesse contrato.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 44.364237604s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "93592949212798121127213117304912625505836768562433217537850469496310204567695",
+      "gerado_em": "2026-05-31T23:44:18.936023+00:00"
+    },
+    {
+      "id": "e151ebb3034a",
+      "data": "2025-12-10",
+      "questao": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "questao_pt": "O Bitcoin vai cair a US$ 55.000 até o final de 2026?",
+      "evento": "What price will Bitcoin hit in 2026?",
+      "categoria": "Cripto",
+      "prob_yes": 45.5,
+      "variacao": 6.0,
+      "zscore": 3.71,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 39.5,
+      "prob_depois": 39.5,
+      "volume": 3174664.833668994,
+      "end_date": "2027-01-01",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de o Bitcoin cair a US$ 55.000 até o final de 2026 subiu <b>6.0</b> pontos percentuais, passando de <b>39.5%</b> para <b>45.5%</b>, uma variação cerca de <b>4</b> vezes fora do padrão histórico deste contrato. Esse movimento indica um aumento significativo na aposta dos investidores de que o valor do Bitcoin pode atingir esse patamar em um futuro próximo. A probabilidade inicial de <b>39.5%</b> já refletia uma incerteza significativa no mercado, e o salto para <b>45.5%</b> sugere que os investidores estão se tornando cada vez mais cautelosos em relação ao desempenho do Bitcoin.</p>\n\n<p>Esse contrato mede a confiança dos investidores na capacidade do Bitcoin de manter ou atingir um valor específico no futuro, e o movimento recente pode indicar que os investidores estão começando a questionar a estabilidade do mercado de criptomoedas. Com um volume total de <b>US$ 3,174,665</b>, esse contrato é significativo e pode sugerir que os investidores estão se preparando para uma possível correção no mercado. Ainda que o resultado final do contrato ainda esteja em aberto, a mudança na probabilidade pode apontar para uma maior volatilidade no mercado de criptomoedas nos próximos meses.</p>\n\n<p>O aumento na probabilidade de o Bitcoin cair a US$ 55.000 pode impactar diretamente os investidores brasileiros que têm exposição ao mercado de criptomoedas, afetando suas estratégias de investimento e expectativas de retorno. Além disso, pode influenciar a decisão de exchanges e empresas de tecnologia financeira que operam no Brasil, levando a uma reavaliação das estratégias de negócios e dos riscos associados ao mercado de criptomoedas. Isso pode, por sua vez, afetar a regulação do mercado de criptomoedas no país, com a CVM podendo precisar reavaliar suas políticas para proteger os investidores.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 32.284522951s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "115462087336983275104521488923966022755348986822352694745153736621832003960847",
+      "gerado_em": "2026-05-31T23:44:30.620083+00:00"
+    },
+    {
+      "id": "cd14212d4d92",
+      "data": "2025-12-08",
+      "questao": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 50 pontos-base ou mais na reunião de abril 2026?",
+      "evento": "Fed decision in April?",
+      "categoria": "FOMC",
+      "prob_yes": 11.0,
+      "variacao": 5.0,
+      "zscore": 3.74,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 6.0,
+      "prob_depois": 8.0,
+      "volume": 66025383.9220003,
+      "end_date": "2026-04-29",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Fed cortar os juros em 50 pontos-base ou mais na reunião de abril de 2026 subiu de <b>6.0%</b> para <b>11.0%</b>, uma variação de <b>5.0</b> pontos percentuais. Este movimento, cerca de 4 vezes fora do padrão histórico deste contrato, indica uma mudança notável nas expectativas do mercado.</p>\n\n<p>Este contrato mede a expectativa dos investidores sobre a intensidade dos cortes de juros pelo Federal Reserve. A alta na probabilidade de um corte mais agressivo pode indicar que o mercado estava precificando uma política monetária mais frouxa nos EUA. Com um volume negociado de <b>US$ 66.025.384</b>, o mercado refletiu essa crença, que, no entanto, não se concretizou: três dias após o sinal, a probabilidade reverteu para <b>8.0%</b>, e o mercado errou a aposta de um corte de 50 pontos-base ou mais.</p>\n\n<p>Para o Brasil, a expectativa de cortes mais agressivos nos juros americanos, que subiu em <b>5.0</b> pontos percentuais, pode aliviar a pressão sobre o real. Isso sugere um dólar mais fraco no cenário global, o que poderia baratear as importações e reduzir o custo da dívida externa brasileira, além de potencialmente dar mais espaço para o Copom considerar cortes na Selic.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "18690049947242812495755151360212639738977254879109748949267393375856311641700",
+      "gerado_em": "2026-06-02T02:47:36.580290+00:00"
+    },
+    {
+      "id": "ccaaa23b87d3",
+      "data": "2025-12-02",
+      "questao": "Will Bitcoin reach $100,000 by December 31, 2025?",
+      "questao_pt": "O Bitcoin vai atingir US$ 100.000 até o final de 2025?",
+      "evento": "What price will Bitcoin hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 43.0,
+      "variacao": 11.5,
+      "zscore": 3.77,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 30.0,
+      "prob_depois": 45.0,
+      "volume": 9479018.595278,
+      "end_date": "2026-01-01",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Bitcoin atingir US$ 100.000 até o final de 2025 subiu <b>13.5</b> pontos percentuais, passando de <b>30.0%</b> para <b>43.0%</b>, uma variação que representa cerca de <b>4</b> vezes fora do padrão histórico deste contrato. Essa mudança súbita reflete a confiança renovada dos investidores na capacidade do Bitcoin de alcançar esse marco de preço antes do fim do ano. A probabilidade inicial de <b>30.0%</b> indicava uma incerteza significativa, mas o salto para <b>43.0%</b> sugere que os investidores estão cada vez mais otimistas sobre o desempenho do Bitcoin.</p>\n\n<p>Esse contrato mede a confiança do mercado na capacidade do Bitcoin de atingir um preço específico em um prazo determinado, o que pode indicar uma tendência de aumento no valor da criptomoeda. A subida na probabilidade pode sugerir que os investidores estão mais confiantes na adoção e no valor do Bitcoin a longo prazo. Com um volume total de <b>US$ 9,479,019</b>, o movimento é significativo e pode apontar para uma mudança nos humores do mercado. No entanto, o resultado final mostrou que o mercado errou a aposta, o que pode indicar que a euforia foi exagerada ou que fatores externos influenciaram negativamente o preço do Bitcoin.</p>\n\n<p>O impacto dessa mudança no mercado de criptomoedas pode afetar diretamente os investidores brasileiros que têm exposição ao Bitcoin, influenciando suas decisões de investimento e expectativas de retorno. Além disso, a variação no preço do Bitcoin pode influenciar a percepção geral do mercado sobre a estabilidade e o potencial das criptomoedas, o que pode, por sua vez, afetar a regulação e a adoção dessas moedas no Brasil. A mudança no preço do Bitcoin também pode afetar o custo de importações e a inflação doméstica, uma vez que o Brasil é um importador de tecnologia e equipamentos que podem ser comprados com Bitcoin.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 81,
+      "score_detalhes": {
+        "ancoragem_factual": 15,
+        "extensao": 25,
+        "contexto_economico": 21,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 28.154726744s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "92530351746682701626081429271272191534203523777966250895862560038889741880940",
+      "gerado_em": "2026-05-31T23:58:35.119934+00:00"
+    },
+    {
+      "id": "293355fa177f",
+      "data": "2025-12-01",
+      "questao": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+      "questao_pt": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+      "evento": "MicroStrategy sells any Bitcoin by ___ ?",
+      "categoria": "Cripto",
+      "prob_yes": 23.5,
+      "variacao": 5.5,
+      "zscore": 3.73,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 18.0,
+      "prob_depois": 33.5,
+      "volume": 8418661.007786024,
+      "end_date": "2026-07-01",
+      "resultado": "Yes",
+      "narrativa": "<p>A probabilidade de a MicroStrategy vender qualquer Bitcoin até 30 de junho de 2026 aumentou de <b>18.0%</b> para <b>23.5%</b>, subindo <b>5.5 pontos percentuais</b>. Este movimento representa uma variação cerca de 4 vezes fora do padrão histórico deste contrato, indicando uma mudança significativa na percepção do mercado.</p><p>Este contrato mede a expectativa de que a MicroStrategy, uma das maiores detentoras corporativas de Bitcoin, possa liquidar parte de suas reservas. A alta na probabilidade de <b>23.5%</b> no dia do sinal, que se confirmou ao subir para <b>33.5%</b> três dias depois, sugere que investidores estão reavaliando a estratégia de longo prazo da empresa ou a estabilidade do mercado de criptoativos. O volume total negociado neste contrato foi de <b>US$ 8,418,661</b>, e o mercado acertou a aposta.</p><p>Para o Brasil, a alta de <b>5.5 pontos percentuais</b> na probabilidade de venda pela MicroStrategy pode afetar a percepção de risco institucional sobre o Bitcoin. Empresas brasileiras com reservas em criptoativos, como Meliuz e Hashdex, podem rever suas estratégias de alocação ou gestão de portfólio, sugerindo uma maior cautela ou reavaliação do cenário para grandes investidores corporativos no setor.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "110251828161543119357013227499774714771527179764174739487025581227481937033858",
+      "gerado_em": "2026-06-02T02:48:54.916196+00:00"
+    },
+    {
+      "id": "529456bdef9d",
+      "data": "2025-11-29",
+      "questao": "Will there be no change in Fed interest rates after the April 2026 meeting?",
+      "questao_pt": "O Fed vai manter os juros sem alteração na reunião de abril 2026?",
+      "evento": "Fed decision in April?",
+      "categoria": "FOMC",
+      "prob_yes": 45.5,
+      "variacao": -12.5,
+      "zscore": -3.74,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 58.5,
+      "prob_depois": 46.0,
+      "volume": 76909226.49304736,
+      "end_date": "2026-04-29",
+      "resultado": "Yes",
+      "narrativa": "<p>A probabilidade de não haver mudança nas taxas de juros do Fed após a reunião de abril de 2026 caiu 12.5 pontos percentuais, passando de <b>58.5%</b> para <b>45.5%</b>. Essa variação foi cerca de 4 vezes fora do padrão histórico deste contrato, indicando um movimento significativo no mercado. A redução na probabilidade sugere que os investidores estão revisando suas expectativas sobre as decisões do Fed em relação às taxas de juros.</p>\n\n<p>Esse contrato mede a expectativa do mercado sobre a manutenção das taxas de juros do Fed após a reunião de abril de 2026. A queda na probabilidade pode indicar que os investidores estão antecipando um possível ajuste nas taxas de juros, o que pode ter implicações para a economia global. Com um volume total de <b>US$ 76,909,226</b>, esse contrato atraiu uma atenção significativa do mercado. No final, o resultado final confirmou que não houve mudança nas taxas de juros, mostrando que o mercado acertou em sua aposta, que posteriormente se estabilizou em <b>46.0%</b> três dias após o sinal.</p>\n\n<p>A redução na probabilidade de manutenção das taxas de juros do Fed pode ter um impacto no custo do crédito no Brasil, afetando financiamentos e hipotecas. Além disso, pode influenciar as decisões do Copom, o comitê de política monetária do Banco Central do Brasil, em relação às taxas de juros domésticas. Isso, por sua vez, pode afetar a bolsa de valores, especialmente as ações de empresas exportadoras e siderúrgicas, que são sensíveis às variações nas taxas de juros e no câmbio.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 100,
+      "score_detalhes": {
+        "ancoragem_factual": 30,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 56.148167843s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "63586620628756015058616403521099137018911742768824051367331188904593189743777",
+      "gerado_em": "2026-05-31T23:44:06.461095+00:00"
+    },
+    {
+      "id": "4b03210c3bd9",
+      "data": "2025-11-27",
+      "questao": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "questao_pt": "O Bitcoin vai cair a US$ 45.000 até o final de 2026?",
+      "evento": "What price will Bitcoin hit in 2026?",
+      "categoria": "Cripto",
+      "prob_yes": 44.5,
+      "variacao": -8.5,
+      "zscore": -3.74,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 52.5,
+      "prob_depois": 44.5,
+      "volume": 2687276.099072003,
+      "end_date": "2027-01-01",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de o Bitcoin cair a <b>US$ 45.000</b> até o final de <b>2026</b> despencou de <b>52.5%</b> para <b>44.5%</b>, uma queda de <b>8.5</b> pontos percentuais. Este movimento é cerca de <b>4</b> vezes fora do padrão histórico deste contrato, sinalizando uma mudança significativa na percepção do mercado.</p>\n\n<p>Este contrato mede a expectativa dos investidores sobre uma forte correção no preço do Bitcoin nos próximos anos. A queda na probabilidade de o Bitcoin atingir <b>US$ 45.000</b> sugere que o mercado está menos pessimista em relação ao futuro da criptomoeda, ou que a confiança em patamares mais altos de preço se fortaleceu. Com um volume total negociado de <b>US$ 2.687.276</b>, o mercado ainda aguarda o desfecho final deste evento.</p>\n\n<p>Para o Brasil, a diminuição da probabilidade de uma queda acentuada do Bitcoin pode indicar um otimismo crescente no mercado de criptomoedas. Isso tende a sustentar o volume negociado nas exchanges brasileiras e pode encorajar novos aportes de investidores locais, percebendo um risco menor de desvalorização extrema no médio prazo.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "9894510651052373088408067031031513212801618531203062911959630395716258202132",
+      "gerado_em": "2026-06-02T02:48:25.071028+00:00"
+    },
+    {
+      "id": "c9d4ca2d7bab",
+      "data": "2025-11-22",
+      "questao": "Will the Fed decrease interest rates by 25 bps after the April 2026 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 25 pontos-base na reunião de abril 2026?",
+      "evento": "Fed decision in April?",
+      "categoria": "FOMC",
+      "prob_yes": 23.0,
+      "variacao": -7.0,
+      "zscore": -3.75,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 30.0,
+      "prob_depois": 24.5,
+      "volume": 65311948.7161929,
+      "end_date": "2026-04-29",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Fed cortar os juros em 25 pontos-base na reunião de abril de 2026 caiu 7.0 pontos percentuais, passando de <b>30.0%</b> para <b>23.0%</b>, uma variação cerca de 4 vezes fora do padrão histórico deste contrato. Essa mudança reflete uma revisão significativa nas expectativas dos investidores em relação à política monetária do Fed nos próximos meses. A redução nas apostas em um corte de juros pode indicar uma percepção de que a economia está mais resiliente do que se imaginava, ou que os principais indicadores econômicos não justificam uma redução nos juros.</p>\n\n<p>Esse contrato mede a percepção do mercado sobre a probabilidade de o Federal Reserve (Fed) reduzir as taxas de juros em sua reunião de abril de 2026. A queda na probabilidade de um corte de juros sugere que os investidores estão começando a apostar em uma política monetária mais estável ou até mais restritiva. Com um volume total negociado de <b>US$ 65,311,949</b>, essa mudança de expectativa é significativa e pode indicar uma revisão nas estratégias de investimento. No entanto, dado que o resultado final foi de não haver corte de juros, o mercado errou em sua aposta, o que pode ter implicações para a confiança dos investidores em suas capacidades de previsão.</p>\n\n<p>A queda na probabilidade de um corte de juros pelo Fed pode ter implicações para o custo do crédito no Brasil, afetando diretamente as taxas de juros para financiamentos e hipotecas. Além disso, pode influenciar as decisões do Comitê de Política Monetária (Copom) do Banco Central do Brasil, considerando a tendência global de política monetária. Isso, por sua vez, pode afetar o desempenho da bolsa de valores brasileira, especialmente de setores sensíveis a taxas de juros, como as exportadoras e siderúrgicas.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 15.743583618s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "83479140651306794046790588004449066364152228067472874205697111967337978544729",
+      "gerado_em": "2026-05-31T23:58:47.201771+00:00"
+    },
+    {
+      "id": "d4ca1ce99806",
+      "data": "2025-11-21",
+      "questao": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+      "questao_pt": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+      "evento": "MicroStrategy sells any Bitcoin by ___ ?",
+      "categoria": "Cripto",
+      "prob_yes": 24.5,
+      "variacao": -17.5,
+      "zscore": -3.74,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 42.0,
+      "prob_depois": 17.0,
+      "volume": 8418661.007786024,
+      "end_date": "2026-07-01",
+      "resultado": "Yes",
+      "narrativa": "<p>A probabilidade de a MicroStrategy vender qualquer Bitcoin até 30 de junho de 2026 caiu drasticamente, passando de <b>42.0%</b> para <b>24.5%</b>, uma variação de <b>17.5</b> pontos percentuais. Esse movimento foi cerca de <b>4</b> vezes fora do padrão histórico deste contrato, indicando uma mudança significativa na percepção dos investidores.</p>\n\n<p>Este contrato mede a expectativa do mercado sobre a estratégia de longo prazo da MicroStrategy, uma das maiores detentoras corporativas de Bitcoin. A queda na probabilidade sugere que os investidores agora veem uma chance muito menor de a empresa liquidar suas reservas de criptomoedas no futuro próximo. Com um volume negociado de <b>US$ 8.418.661</b>, o mercado, no final, acertou a aposta, confirmando a tendência de não-venda.</p>\n\n<p>Para o mercado cripto brasileiro, a queda de <b>17.5</b> pontos percentuais na probabilidade de venda pela MicroStrategy pode reforçar a percepção de que grandes detentores institucionais não estão liquidando suas posições. Isso, por sua vez, pode ancorar o preço do Bitcoin e reduzir a volatilidade percebida, o que tende a trazer mais estabilidade e confiança para os investidores locais.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "110251828161543119357013227499774714771527179764174739487025581227481937033858",
+      "gerado_em": "2026-06-02T02:47:55.076646+00:00"
+    },
+    {
+      "id": "e1157398c2cd",
+      "data": "2025-11-18",
+      "questao": "Will the Fed decrease interest rates by 25 bps after the March 2026 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 25 pontos-base na reunião de março 2026?",
+      "evento": "Fed decision in March?",
+      "categoria": "FOMC",
+      "prob_yes": 40.0,
+      "variacao": 4.5,
+      "zscore": 3.69,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 35.5,
+      "prob_depois": 39.5,
+      "volume": 87103283.7263213,
+      "end_date": "2026-03-18",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Fed cortar os juros em 25 pontos-base na reunião de março de 2026 subiu <b>4.5</b> pontos percentuais, passando de <b>35.5%</b> para <b>40.0%</b>, uma variação que é cerca de <b>4</b> vezes fora do padrão histórico deste contrato. Esse movimento sugere que os investidores estão se tornando mais otimistas sobre a possibilidade de um corte de juros no início de 2026. A probabilidade inicial de <b>35.5%</b> já indicava um interesse significativo, mas o salto para <b>40.0%</b> mostra uma mudança significativa na percepção do mercado.</p>\n\n<p>Esse contrato mede a expectativa do mercado sobre a política monetária do Federal Reserve, especificamente se haverá um corte de juros em 25 pontos-base após a reunião de março de 2026. A subida na probabilidade pode indicar que os investidores acreditam que a economia está enfrentando desafios que justifiquem uma redução nas taxas de juros. Com um volume total negociado de <b>US$ 87,103,284</b>, o movimento no contrato sugere que os investidores estão apostando pesado nessa possibilidade. No entanto, considerando a sequência completa que foi de <b>35.5%</b> para <b>40.0%</b> e depois para <b>39.5%</b> três dias depois, e sabendo que o resultado final foi contrário à aposta do mercado, é claro que as expectativas não se concretizaram.</p>\n\n<p>O impacto desse movimento para o Brasil pode ser visto no câmbio, onde uma expectativa de corte de juros nos EUA pode influenciar a atratividade do dólar em relação ao real. Além disso, a decisão do Copom do Banco Central do Brasil pode ser influenciada pelas tendências globais de juros, afetando o custo do crédito no país. Com a variação nos mercados globais, os investidores brasileiros devem estar atentos às mudanças nas taxas de juros e seu efeito nas bolsas e na economia em geral.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 55.415117948s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "62938043365772447095885755955446362343142416536419862840923032141775380249586",
+      "gerado_em": "2026-05-31T23:20:07.447819+00:00"
+    },
+    {
+      "id": "c8b56f727cee",
+      "data": "2025-11-09",
+      "questao": "Fed decreases interest rates by 25 bps after January 2026 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 25 pontos-base na reunião de janeiro 2026?",
+      "evento": "Fed decision in January?",
+      "categoria": "FOMC",
+      "prob_yes": 39.0,
+      "variacao": 4.0,
+      "zscore": 3.73,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 35.0,
+      "prob_depois": 39.0,
+      "volume": 101211542.667667,
+      "end_date": "2026-01-28",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Fed cortar os juros em 25 pontos-base na reunião de janeiro de 2026 subiu de <b>35.0%</b> para <b>39.0%</b>, uma variação de <b>4.0</b> pontos percentuais. Esse movimento, cerca de <b>4</b> vezes fora do padrão histórico deste contrato, sinaliza uma mudança notável nas expectativas do mercado.</p><p>Este contrato mede a expectativa dos investidores sobre a política monetária do Banco Central americano. A alta na probabilidade de corte sugere que o mercado pode ter antecipado uma postura mais flexível do Fed no futuro distante, ou pode refletir dados econômicos que apontam para uma desaceleração. Com um volume negociado de mais de <b>US$ 101,211,543</b>, a aposta era significativa. No entanto, o mercado errou a aposta, pois o corte não se concretizou.</p><p>Para o Brasil, a percepção de juros americanos potencialmente mais baixos em 2026, mesmo que a probabilidade tenha subido apenas <b>4.0</b> pontos percentuais, pode aliviar a pressão sobre o câmbio. Uma expectativa de juros americanos mais baixos no futuro tende a enfraquecer o dólar, o que pode dar um respiro ao real, tornando as importações mais baratas e reduzindo o custo da dívida externa brasileira.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "92703761682322480664976766247614127878023988651992837287050266308961660624165",
+      "gerado_em": "2026-06-02T02:48:44.194547+00:00"
+    },
+    {
+      "id": "3ee0d1a7d664",
+      "data": "2025-10-29",
+      "questao": "No change in Fed interest rates after December 2025 meeting?",
+      "questao_pt": "O Fed vai manter os juros sem alteração na reunião de dezembro 2025?",
+      "evento": "Fed decision in December?",
+      "categoria": "FOMC",
+      "prob_yes": 31.5,
+      "variacao": 17.0,
+      "zscore": 3.74,
+      "magnitude": "Significativo",
+      "direcao": "alta",
+      "prob_antes": 12.0,
+      "prob_depois": 30.5,
+      "volume": 44523455.111481,
+      "end_date": "2025-12-10",
+      "resultado": "No",
+      "narrativa": "<p>Investidores mudaram rapidamente suas apostas sobre \"O Fed vai manter os juros sem alteração na reunião de dezembro 2025?\". A probabilidade de o Banco Central americano não mexer nas taxas subiu de <b>12.0%</b> para <b>31.5%</b> em apenas um dia, um salto de <b>17.0</b> pontos percentuais. Este foi um movimento cerca de <b>4</b> vezes maior do que o comportamento normal deste contrato.</p><p>Este contrato mede a expectativa do mercado sobre a decisão do Federal Reserve de manter ou não os juros estáveis na reunião de dezembro de 2025. A alta repentina na probabilidade de uma pausa sugeriu que os investidores estavam precificando uma mudança na postura do Fed, talvez antecipando um cenário econômico que justificasse a manutenção das taxas. Com um volume negociado de mais de <b>US$ 44.5 milhões</b>, o sinal refletiu uma convicção significativa, embora, no final, o mercado tenha errado a aposta sobre a decisão do Fed.</p><p>Para o Brasil, a expectativa de que o Fed manteria os juros sem alteração poderia ter aliviado a pressão sobre o Banco Central brasileiro, o Copom, na sua própria política monetária. Um Fed menos propenso a subir juros tende a reduzir a fuga de capital de mercados emergentes, potencialmente estabilizando o câmbio e o custo da dívida pública brasileira. No entanto, a realidade dos eventos futuros mostrou que essa aposta inicial do mercado não se concretizou.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "80746058984644290629624903019922696017323803605256698757445938534814122585786",
+      "gerado_em": "2026-05-31T22:41:27.673172+00:00"
+    },
+    {
+      "id": "76756f5dda9c",
+      "data": "2025-10-27",
+      "questao": "Will Bitcoin hit $150k by June 30, 2026?",
+      "questao_pt": "O Bitcoin vai movimentar até US$ 150 em 2026?",
+      "evento": "When will Bitcoin hit $150k?",
+      "categoria": "Cripto",
+      "prob_yes": 48.5,
+      "variacao": 4.0,
+      "zscore": 3.71,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 44.0,
+      "prob_depois": 47.5,
+      "volume": 19180591.738385044,
+      "end_date": "2026-07-01",
+      "resultado": null,
+      "narrativa": "<p>Aumentou a expectativa nos mercados preditivos de que o Bitcoin vai movimentar até <b>US$ 150.000</b> em 2026. A probabilidade de isso acontecer subiu de <b>44.0%</b> para <b>48.5%</b>, com uma variação diária de <b>4.0</b> pontos percentuais, um movimento cerca de <b>4</b> vezes fora do padrão histórico deste contrato.</p>\n\n<p>Este contrato mede a confiança dos investidores na capacidade do Bitcoin de atingir um valor expressivo nos próximos anos. O movimento recente pode indicar uma renovada onda de otimismo no mercado de criptomoedas, sugerindo que os participantes veem um potencial de valorização significativo. O volume total negociado neste contrato já ultrapassa <b>US$ 19.180.592</b>. Três dias após o sinal, a probabilidade se ajustou ligeiramente para <b>47.5%</b>, e o resultado final ainda está em aberto.</p>\n\n<p>Para o Brasil, a alta de <b>4.0</b> pontos percentuais na probabilidade de o Bitcoin atingir <b>US$ 150.000</b> até 2026 pode ser interpretada por investidores brasileiros, especialmente os cerca de <b>15</b> milhões com contas em exchanges nacionais como Mercado Bitcoin e Binance BR, como uma validação da tendência de alta. Isso, por sua vez, pode impactar o volume de negociação doméstico, à medida que mais pessoas buscam participar do que pode ser um ciclo de valorização do ativo.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 93,
+      "score_detalhes": {
+        "ancoragem_factual": 30,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "13915689317269078219168496739008737517740566192006337297676041270492637394586",
+      "gerado_em": "2026-06-02T02:49:06.884129+00:00"
+    },
+    {
+      "id": "b12ce3905c84",
+      "data": "2025-10-20",
+      "questao": "Will 2 Fed rate cuts happen in 2026?",
+      "questao_pt": "O Fed vai realizar 2 cortes de juros em 2026?",
+      "evento": "How many Fed rate cuts in 2026?",
+      "categoria": "FOMC",
+      "prob_yes": 25.5,
+      "variacao": 6.5,
+      "zscore": 3.74,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 19.0,
+      "prob_depois": 25.5,
+      "volume": 1330087.099105002,
+      "end_date": "2026-12-31",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de o Fed realizar 2 cortes de juros em 2026 subiu de <b>19.0%</b> para <b>25.5%</b>, uma variação de <b>6.5</b> pontos percentuais. Este movimento foi cerca de 4 vezes fora do padrão histórico deste contrato.</p><p>Este contrato mede a expectativa dos investidores sobre a política monetária futura do banco central americano. A alta na probabilidade de apenas dois cortes em 2026 pode indicar que o mercado está precificando um cenário de juros mais altos por mais tempo nos Estados Unidos, ou uma inflação mais persistente que exigiria uma postura mais conservadora do Fed. Com um volume negociado de <b>US$ 1.330.087</b>, o mercado ainda aguarda o desfecho para confirmar se essa expectativa se concretizará.</p><p>Para o Brasil, a elevação de <b>6.5</b> pontos percentuais na expectativa de menos cortes de juros nos EUA em 2026 sugere um cenário de dólar mais forte frente ao real. Isso pode pressionar a moeda brasileira, encarecendo importações e aumentando o custo da dívida externa para empresas e o governo. Além disso, taxas de juros americanas mais elevadas por um período prolongado tendem a atrair capital estrangeiro para a renda fixa dos EUA, o que pode impactar negativamente o Ibovespa e limitar o espaço do Copom para novos cortes na Selic.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "72535544017897924722695722172278828562733090748474862987195303914909938482758",
+      "gerado_em": "2026-06-02T02:47:46.066665+00:00"
+    },
+    {
+      "id": "f573a2bbe6c3",
+      "data": "2025-10-02",
+      "questao": "Will Bitcoin hit $150k by June 30, 2026?",
+      "questao_pt": "O Bitcoin vai movimentar até US$ 150 em 2026?",
+      "evento": "When will Bitcoin hit $150k?",
+      "categoria": "Cripto",
+      "prob_yes": 62.0,
+      "variacao": 6.0,
+      "zscore": 3.79,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 55.0,
+      "prob_depois": 60.5,
+      "volume": 19180591.738385044,
+      "end_date": "2026-07-01",
+      "resultado": null,
+      "narrativa": "<p>Aumentou a expectativa de que o Bitcoin vai movimentar até US$ 150 mil em 2026, com a probabilidade subindo de <b>55.0%</b> para <b>62.0%</b>. Este movimento representa uma alta de <b>6.0</b> pontos percentuais e é cerca de <b>4</b> vezes fora do padrão histórico deste contrato, indicando uma mudança significativa na percepção do mercado.</p>\n<p>Este contrato mede a confiança dos investidores na capacidade do Bitcoin de atingir um patamar de preço elevado em um futuro próximo. A alta na probabilidade de <b>62.0%</b>, que se manteve em <b>60.5%</b> três dias depois, sugere que o mercado está mais otimista com a valorização da criptomoeda. Com um volume total negociado de <b>US$ 19.180.592</b>, o movimento reflete uma aposta coletiva robusta, embora o resultado final ainda esteja em aberto.</p>\n<p>Para o Brasil, a alta de <b>6.0</b> pontos percentuais na probabilidade de o Bitcoin atingir <b>US$ 150</b> mil em 2026 pode indicar que investidores brasileiros — especialmente os cerca de <b>15</b> milhões com conta em exchanges nacionais como Mercado Bitcoin e Binance BR — podem reagir ao sinal como validação de uma tendência de alta, potencialmente impactando o volume de negociação doméstico.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "13915689317269078219168496739008737517740566192006337297676041270492637394586",
+      "gerado_em": "2026-06-02T02:47:08.286905+00:00"
+    },
+    {
+      "id": "12d5fd98c65a",
+      "data": "2025-10-01",
+      "questao": "Fed decreases interest rates by 25 bps after January 2026 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 25 pontos-base na reunião de janeiro 2026?",
+      "evento": "Fed decision in January?",
+      "categoria": "FOMC",
+      "prob_yes": 28.5,
+      "variacao": -6.0,
+      "zscore": -3.75,
+      "magnitude": "Significativo",
+      "direcao": "queda",
+      "prob_antes": 34.5,
+      "prob_depois": 33.5,
+      "volume": 101211542.667667,
+      "end_date": "2026-01-28",
+      "resultado": "No",
+      "narrativa": "<p>As apostas do mercado sobre \"O Fed vai cortar os juros em 25 pontos-base na reunião de janeiro 2026?\" caíram de <b>34.5%</b> para <b>28.5%</b> em apenas um dia. Essa queda de <b>6.0</b> pontos percentuais representa uma variação cerca de <b>4</b> vezes maior do que o comportamento normal deste contrato.</p><p>Este contrato mede a expectativa dos investidores sobre a política monetária do Federal Reserve. A rápida mudança sugere que os participantes do mercado estão menos confiantes em um corte de juros pelo Fed em janeiro de 2026, possivelmente antecipando uma postura mais conservadora da autoridade monetária americana. Com um volume total negociado de <b>US$ 101,211,543</b>, o sinal reflete uma percepção coletiva significativa, embora, no final, o mercado tenha errado a aposta sobre esse evento específico.</p><p>Para o Brasil, a menor expectativa de cortes de juros nos EUA pode pressionar o Banco Central (Copom) a manter a Selic em patamares mais elevados por mais tempo, para evitar uma fuga de capital e desvalorização do real. Isso também pode impactar o custo de financiamentos e a dívida pública no país.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "92703761682322480664976766247614127878023988651992837287050266308961660624165",
+      "gerado_em": "2026-05-31T22:41:16.862475+00:00"
+    },
+    {
+      "id": "799eb20a0568",
+      "data": "2025-10-01",
+      "questao": "Will 10 Fed rate cuts happen in 2026?",
+      "questao_pt": "O Fed vai realizar 10 cortes de juros em 2026?",
+      "evento": "How many Fed rate cuts in 2026?",
+      "categoria": "FOMC",
+      "prob_yes": 5.0,
+      "variacao": -5.0,
+      "zscore": -3.7,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 10.0,
+      "prob_depois": 3.0,
+      "volume": 3637762.9860200174,
+      "end_date": "2026-12-31",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de o Fed realizar 10 cortes de juros em 2026 caiu <b>5.0</b> pontos percentuais, passando de <b>10.0%</b> para <b>5.0%</b>. Essa variação foi cerca de <b>4</b> vezes fora do padrão histórico deste contrato, indicando um movimento significativo no mercado. Isso sugere que os investidores estão revisando suas expectativas sobre a política monetária do Fed para o próximo ano.</p>\n\n<p>Esse contrato mede a expectativa do mercado sobre a possibilidade de o Fed realizar 10 cortes de juros em 2026, o que pode indicar uma mudança significativa na política monetária. A redução na probabilidade de <b>10.0%</b> para <b>5.0%</b> e, posteriormente, para <b>3.0%</b> nos três dias seguintes, sugere que os investidores estão se tornando cada vez mais céticos sobre a possibilidade de cortes de juros agressivos. Com um volume total de <b>US$ 3,637,763</b> negociado, esse movimento pode apontar para uma revisão das expectativas de crescimento econômico e inflação. No entanto, como o resultado final ainda está em aberto, é preciso aguardar para ver se o mercado acertou ou errou em suas previsões.</p>\n\n<p>A redução na probabilidade de cortes de juros do Fed pode ter um impacto significativo no custo do crédito no Brasil, afetando financiamentos e hipotecas. Além disso, pode influenciar a decisão do Copom do Banco Central do Brasil, que pode precisar ajustar sua política monetária em resposta às mudanças nos Estados Unidos. Com o dólar e as taxas de juros sendo fatores importantes para a economia brasileira, esse movimento pode ter implicações significativas para o país.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 5.258231733s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '5s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "101699865858660601590309838387762714166224752219273014726406345404403204943713",
+      "gerado_em": "2026-05-31T23:44:57.435467+00:00"
+    },
+    {
+      "id": "aca915eb0f77",
+      "data": "2025-10-01",
+      "questao": "Will 11 Fed rate cuts happen in 2026?",
+      "questao_pt": "O Fed vai realizar 11 cortes de juros em 2026?",
+      "evento": "How many Fed rate cuts in 2026?",
+      "categoria": "FOMC",
+      "prob_yes": 5.0,
+      "variacao": -5.0,
+      "zscore": -3.7,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 10.0,
+      "prob_depois": 1.6,
+      "volume": 3662986.503908054,
+      "end_date": "2026-12-31",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de o Fed realizar 11 cortes de juros em 2026 caiu de <b>10.0%</b> para <b>5.0%</b>, uma queda de <b>5.0</b> pontos percentuais. Este movimento é cerca de <b>4</b> vezes fora do padrão histórico deste contrato.</p><p>Este contrato mede a expectativa do mercado sobre a agressividade dos cortes de juros pelo Federal Reserve nos Estados Unidos até 2026. A queda na probabilidade, que se aprofundou para <b>1.6%</b> três dias após o sinal, sugere que investidores estão reduzindo suas apostas em um ciclo de flexibilização monetária tão intenso. Com um volume negociado de mais de <b>US$ 3,662,987</b>, o mercado ainda mantém em aberto o resultado final.</p><p>A queda de <b>5.0</b> pontos percentuais na probabilidade de o Fed realizar 11 cortes de juros em 2026 sugere que o mercado pode estar antecipando juros americanos mais baixos ou uma pausa mais longa. Este cenário, por sua vez, pode enfraquecer o dólar e aliviar a pressão sobre o real, o que pode dar mais espaço para o Copom retomar cortes na Selic.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "56345349743779788266710915561914531858285418844567819631705863717318287635981",
+      "gerado_em": "2026-06-02T02:49:47.763665+00:00"
+    },
+    {
+      "id": "d5e8866502ab",
+      "data": "2025-09-27",
+      "questao": "Will Ethereum hit $5,000 by December 31?",
+      "questao_pt": "O Ethereum vai atingir US$ 5.000 até o final do ano?",
+      "evento": "What price will Ethereum hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 48.6,
+      "variacao": -5.95,
+      "zscore": -3.7,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 54.6,
+      "prob_depois": 55.2,
+      "volume": 18467737.400303,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Ethereum atingir <b>US$ 5.000</b> até o final do ano caiu de <b>54.6%</b> para <b>48.6%</b>, uma variação de <b>6.0</b> pontos percentuais. Este movimento foi cerca de <b>4</b> vezes fora do padrão histórico deste contrato, indicando uma mudança significativa na percepção dos investidores sobre o futuro da criptomoeda.</p>\n\n<p>Este contrato do Signal mede a confiança dos investidores na capacidade do Ethereum de alcançar um patamar de preço significativo até o fim do ano. A queda sugere que o otimismo em relação a um salto expressivo do Ethereum diminuiu, com o mercado revisando para baixo suas expectativas de valorização. Com um volume total negociado de <b>US$ 18.467.737</b>, o mercado refletiu essa mudança de percepção. Três dias após o sinal, a probabilidade se recuperou ligeiramente para <b>55.2%</b>, mas, no fim, o mercado errou a aposta, e o Ethereum não atingiu <b>US$ 5.000</b>.</p>\n\n<p>Para o Brasil, a queda de <b>6.0</b> pontos percentuais na probabilidade de o Ethereum atingir <b>US$ 5.000</b> pode indicar uma revisão das expectativas de alta para o mercado de criptoativos. Isso, por sua vez, sugere que a entrada de novos investidores no mercado cripto brasileiro pode desacelerar, já que a perspectiva de grandes valorizações em curto prazo se torna menos provável.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 90,
+      "score_detalhes": {
+        "ancoragem_factual": 30,
+        "extensao": 25,
+        "contexto_economico": 15,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "96638575418189284731461006608299472691495172793493062289677934142140726427384",
+      "gerado_em": "2026-06-02T02:50:28.247728+00:00"
+    },
+    {
+      "id": "79056120aaaa",
+      "data": "2025-09-25",
+      "questao": "Will Bitcoin reach $130,000 by December 31, 2025?",
+      "questao_pt": "O Bitcoin vai atingir US$ 130000?",
+      "evento": "What price will Bitcoin hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 46.0,
+      "variacao": -4.0,
+      "zscore": -3.82,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 50.5,
+      "prob_depois": 47.5,
+      "volume": 13211425.234841,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>Investidores reduziram suas apostas em um cenário de alta para o Bitcoin, com a probabilidade de a criptomoeda atingir US$ 130000 até o final de 2025 caindo de <b>50.5%</b> para <b>46.0%</b>. Essa variação de <b>4.0 pontos percentuais</b> representa um movimento cerca de <b>4 vezes</b> fora do padrão histórico deste contrato, indicando uma mudança significativa no sentimento do mercado.</p><p>Este contrato mede a confiança dos participantes do mercado na valorização expressiva do Bitcoin, funcionando como um termômetro para as expectativas de longo prazo sobre a principal criptomoeda. O movimento de baixa, que se recuperou parcialmente para <b>47.5%</b> três dias depois, sugere que, embora tenha havido um momento de cautela, a aposta em um Bitcoin a US$ 130000 não foi totalmente abandonada. No entanto, o mercado errou a aposta, e o volume total negociado no contrato foi de <b>US$ 13.211.425</b>, refletindo o interesse considerável dos investidores.</p><p>Para os investidores brasileiros, essa queda na probabilidade de um Bitcoin a US$ 130000 pode indicar um período de maior volatilidade e cautela nos portfólios de criptoativos. Fundos de investimento e exchanges locais podem observar uma reavaliação das estratégias, com foco em diversificação ou ativos menos voláteis. A percepção de risco para o mercado cripto global impacta diretamente o apetite por risco dos brasileiros neste segmento.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "70455106433105725093003807079135685186309776081399075740142938507518314484366",
+      "gerado_em": "2026-05-31T23:02:42.160936+00:00"
+    },
+    {
+      "id": "0fcc6406aa96",
+      "data": "2025-09-22",
+      "questao": "Will Bitcoin hit $150k by December 31, 2026?",
+      "questao_pt": "O Bitcoin vai movimentar até US$ 150 em 2026?",
+      "evento": "When will Bitcoin hit $150k?",
+      "categoria": "Cripto",
+      "prob_yes": 37.5,
+      "variacao": -22.0,
+      "zscore": -3.74,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 59.5,
+      "prob_depois": 37.5,
+      "volume": 2434410.940673962,
+      "end_date": "2027-01-01",
+      "resultado": null,
+      "narrativa": "<p>A probabilidade de o Bitcoin atingir <b>US$ 150 mil</b> em <b>2026</b> caiu drasticamente, passando de <b>59.5%</b> para <b>37.5%</b>. Este movimento representa uma queda de <b>22.0</b> pontos percentuais e é cerca de <b>4</b> vezes fora do padrão histórico deste contrato.</p>\n\n<p>Este contrato mede a expectativa do mercado sobre o preço futuro do Bitcoin. A queda na probabilidade, que se manteve em <b>37.5%</b> três dias depois do sinal, sugere que investidores estão revisando para baixo suas projeções de valorização extrema para a criptomoeda nos próximos anos. Com um volume total negociado de <b>US$ 2.434.411</b>, o mercado ainda está em aberto, aguardando a evolução do preço do Bitcoin até o final de <b>2026</b>.</p>\n\n<p>Para o mercado brasileiro, essa revisão para baixo das expectativas de um Bitcoin a <b>US$ 150 mil</b> pode desacelerar a entrada de novos investidores no mercado cripto. A queda de <b>22.0</b> pontos percentuais na probabilidade de um preço tão elevado pode refletir uma postura mais cautelosa dos participantes, o que impacta o ritmo de adoção e investimento em ativos digitais no país.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "93694900555669388759405753550770573998169287228984912881955464376232163096213",
+      "gerado_em": "2026-06-02T02:47:20.685678+00:00"
+    },
+    {
+      "id": "dd59ce04194e",
+      "data": "2025-09-11",
+      "questao": "Fed decreases interest rates by 50+ bps after December 2025 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 50 pontos-base ou mais na reunião de dezembro 2025?",
+      "evento": "Fed decision in December?",
+      "categoria": "FOMC",
+      "prob_yes": 10.5,
+      "variacao": 4.0,
+      "zscore": 3.74,
+      "magnitude": "Significativo",
+      "direcao": "alta",
+      "prob_antes": 6.5,
+      "prob_depois": 9.5,
+      "volume": 161574382.129451,
+      "end_date": "2025-12-10",
+      "resultado": "No",
+      "narrativa": "<p>Investidores mudaram rapidamente suas apostas sobre a política monetária americana. A probabilidade de o Fed cortar os juros em 50 pontos-base ou mais na reunião de dezembro 2025 saltou de <b>6.5%</b> para <b>10.5%</b> em apenas um dia, uma variação cerca de 4 vezes maior do que o comportamento normal deste contrato.</p><p>Este contrato mede a expectativa do mercado para cortes agressivos nas taxas de juros pelo Federal Reserve. O movimento sugere que investidores passaram a ver uma chance maior de o banco central americano adotar uma postura mais agressiva para estimular a economia, talvez em resposta a dados econômicos mais fracos. Com um volume total negociado de <b>US$ 161,574,382</b>, o sinal refletiu uma convicção significativa, embora, no final, o mercado tenha errado a aposta.</p><p>Para o Brasil, a percepção de um Fed mais propenso a cortes de juros nos Estados Unidos tende a aliviar a pressão sobre o real, tornando o dólar menos atraente e potencialmente abrindo espaço para o Banco Central brasileiro (Copom) ter maior flexibilidade em suas próprias decisões sobre a taxa Selic, sem o risco de uma fuga de capitais. Isso poderia, em tese, contribuir para um custo de crédito mais baixo no país.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 90,
+      "score_detalhes": {
+        "ancoragem_factual": 20,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "74018646712472971445258547247048869505144598783748525202442089895996249694683",
+      "gerado_em": "2026-05-31T22:41:45.633639+00:00"
+    },
+    {
+      "id": "d1937a810560",
+      "data": "2025-09-08",
+      "questao": "Fed decreases interest rates by 50+ bps after September 2025 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 50 pontos-base ou mais na reunião de setembro 2025?",
+      "evento": "Fed decision in September?",
+      "categoria": "FOMC",
+      "prob_yes": 15.4,
+      "variacao": 4.2,
+      "zscore": 3.77,
+      "magnitude": "Significativo",
+      "direcao": "alta",
+      "prob_antes": 10.4,
+      "prob_depois": 18.5,
+      "volume": 49890284.071409,
+      "end_date": "2025-09-17",
+      "resultado": "No",
+      "narrativa": "<p>As apostas do mercado sobre um movimento agressivo do Federal Reserve mudaram bruscamente, com a probabilidade de o Fed cortar os juros em 50 pontos-base ou mais na reunião de setembro 2025 saltando de <b>10.4%</b> para <b>15.4%</b> em apenas um dia. Este foi um movimento cerca de <b>4</b> vezes maior do que o comportamento normal deste contrato, indicando uma forte reavaliação dos investidores.</p>\n\n<p>Este contrato mede a expectativa dos investidores sobre a intensidade dos cortes de juros pelo banco central americano. O aumento repentino sugere que o mercado passou a precificar uma chance maior de o Fed precisar agir de forma mais contundente para estimular a economia ou combater uma desaceleração. A relevância desse sinal é reforçada pelo volume total negociado no contrato, que atingiu <b>US$ 49,890,284</b>. Contudo, o mercado errou a aposta final, já que o Fed não realizou um corte de juros tão agressivo como o sinal indicava.</p>\n\n<p>Para o Brasil, uma expectativa crescente de cortes agressivos nos juros americanos, como a sinalizada, poderia aliviar a pressão sobre o câmbio e a política monetária doméstica. Isso potencialmente daria mais espaço para o Banco Central do Brasil (Copom) considerar cortes de juros mais cedo ou em maior magnitude, impactando positivamente o custo do crédito e os financiamentos no país.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "7988364699307342268260495915445731509602502693363579435248273813409237524599",
+      "gerado_em": "2026-05-31T22:40:27.222661+00:00"
+    },
+    {
+      "id": "207a18e171b1",
+      "data": "2025-08-22",
+      "questao": "Will Bitcoin reach $130,000 by December 31, 2025?",
+      "questao_pt": "O Bitcoin vai atingir US$ 130.000 até o final de 2025?",
+      "evento": "What price will Bitcoin hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 70.0,
+      "variacao": 7.5,
+      "zscore": 3.71,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 63.0,
+      "prob_depois": 71.0,
+      "volume": 13211425.234841,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Bitcoin atingir <b>US$ 130.000</b> até o final de 2025 subiu de <b>63.0%</b> para <b>70.0%</b>, uma variação de <b>7.5</b> pontos percentuais. Este movimento foi cerca de <b>4</b> vezes fora do padrão histórico deste contrato, indicando uma mudança significativa na percepção dos investidores sobre o futuro da criptomoeda.</p>\n\n<p>Este contrato mede a confiança do mercado na valorização do Bitcoin para um patamar ambicioso, refletindo a crença coletiva de milhares de investidores. A alta na probabilidade pode indicar que, naquele momento, um número maior de participantes via potencial para o Bitcoin alcançar um novo pico significativo. Com um volume negociado de <b>US$ 13.211.425</b>, o mercado demonstrou forte convicção. No entanto, o mercado errou a aposta, e o Bitcoin não atingiu os <b>US$ 130.000</b> até o final de 2025. A probabilidade, que chegou a <b>70.0%</b> no dia do sinal, estabilizou em <b>71.0%</b> três dias depois, antes de reverter.</p>\n\n<p>A alta de <b>7.5</b> pontos percentuais na probabilidade de o Bitcoin atingir <b>US$ 130.000</b> até o final de 2025 pode indicar que investidores brasileiros — especialmente os cerca de <b>15</b> milhões com conta em exchanges nacionais como Mercado Bitcoin e Binance BR — podem ter reagido ao sinal como uma validação de tendência de alta, potencialmente impactando o volume de negociação doméstico.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 93,
+      "score_detalhes": {
+        "ancoragem_factual": 30,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "70455106433105725093003807079135685186309776081399075740142938507518314484366",
+      "gerado_em": "2026-06-02T02:49:16.566903+00:00"
+    },
+    {
+      "id": "024ae8c46537",
+      "data": "2025-08-01",
+      "questao": "Fed decreases interest rates by 25 bps after October 2025 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 25 pontos-base na reunião de outubro 2025?",
+      "evento": "Fed decision in October?",
+      "categoria": "FOMC",
+      "prob_yes": 49.5,
+      "variacao": 7.0,
+      "zscore": 3.68,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 42.0,
+      "prob_depois": 54.0,
+      "volume": 51626217.76071,
+      "end_date": "2025-10-29",
+      "resultado": "Yes",
+      "narrativa": "<p>A probabilidade de o Fed cortar os juros em 25 pontos-base na reunião de outubro de 2025 subiu <b>7.0</b> pontos percentuais, passando de <b>42.0%</b> para <b>49.5%</b>, uma variação cerca de <b>4</b> vezes fora do padrão histórico deste contrato. Esse movimento indica uma mudança significativa na percepção dos investidores sobre a política monetária do Fed. A probabilidade inicial de <b>42.0%</b> refletia uma incerteza sobre as decisões do Fed, mas o salto para <b>49.5%</b> sugere que os investidores estão cada vez mais convictos de que uma redução nos juros está no horizonte.</p>\n\n<p>Esse contrato mede a expectativa do mercado sobre as decisões do Federal Reserve em relação às taxas de juros, o que tem um impacto direto na economia global. A subida na probabilidade de um corte de juros pode indicar que os investidores acreditam que o Fed está preparado para estimular a economia, o que sugere que a instituição está preocupada com o crescimento econômico. Com um volume total de <b>US$ 51,626,218</b> negociado, o mercado demonstrou um interesse significativo nesse evento. Além disso, considerando que o resultado final confirmou a aposta dos investidores, com o Fed de fato cortando os juros, isso aponta para uma precisão nas expectativas do mercado.</p>\n\n<p>O aumento na probabilidade de um corte de juros pelo Fed pode ter um impacto positivo no mercado de crédito no Brasil, possivelmente reduzindo o custo do crédito para consumidores e empresas. Além disso, uma política monetária mais expansiva nos Estados Unidos pode influenciar as decisões do Copom, o comitê de política monetária do Banco Central do Brasil, sobre as taxas de juros no país. Isso, por sua vez, pode afetar o desempenho da bolsa brasileira, especialmente de setores sensíveis a taxas de juros, como as construtoras e empresas de financiamento imobiliário.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 43.418428656s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "78970393675220813117457137074949547635027336958817818487077806376171274244367",
+      "gerado_em": "2026-05-31T23:20:19.401294+00:00"
+    },
+    {
+      "id": "c39db8cd99f0",
+      "data": "2025-07-30",
+      "questao": "No change in Fed interest rates after September 2025 meeting?",
+      "questao_pt": "O Fed vai manter os juros sem alteração na reunião de setembro 2025?",
+      "evento": "Fed decision in September?",
+      "categoria": "FOMC",
+      "prob_yes": 55.5,
+      "variacao": 11.0,
+      "zscore": 3.83,
+      "magnitude": "Significativo",
+      "direcao": "alta",
+      "prob_antes": 41.0,
+      "prob_depois": 57.5,
+      "volume": 67368762.49652,
+      "end_date": "2025-09-17",
+      "resultado": "No",
+      "narrativa": "<p>Investidores mudaram rapidamente suas expectativas sobre a política monetária americana. A probabilidade de que o Fed mantenha os juros sem alteração na reunião de setembro 2025 saltou de <b>41.0%</b> para <b>55.5%</b> em apenas três dias. Este movimento representa uma variação cerca de <b>4</b> vezes maior do que o comportamento normal deste contrato.</p><p>Este contrato mede a crença coletiva do mercado sobre a decisão do Federal Reserve em uma data futura. O aumento abrupto na probabilidade de manutenção dos juros sugere que os participantes do mercado estavam precificando um cenário de maior estabilidade, talvez antecipando dados econômicos que justificassem uma pausa nas movimentações. Com um volume total negociado de <b>US$ 67,368,762</b>, o sinal teve alta liquidez e relevância, embora o resultado final tenha mostrado que o mercado errou a aposta, pois o Fed não manteve os juros inalterados.</p><p>Para o Brasil, uma maior probabilidade de estabilidade nos juros americanos, ainda que temporária, poderia aliviar a pressão sobre o câmbio, tornando o real menos volátil frente ao dólar. Isso daria mais espaço para o Banco Central do Brasil (Copom) calibrar sua própria política monetária, sem a necessidade de seguir tão de perto os passos do Fed.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 85,
+      "score_detalhes": {
+        "ancoragem_factual": 15,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "20687552179259492015264396642668768958132112743605647653821858729131283300433",
+      "gerado_em": "2026-05-31T22:40:15.191860+00:00"
+    },
+    {
+      "id": "52e2ad3c4f2a",
+      "data": "2025-06-27",
+      "questao": "No change in Fed interest rates after October 2025 meeting?",
+      "questao_pt": "O Fed vai manter os juros sem alteração na reunião de outubro 2025?",
+      "evento": "Fed decision in October?",
+      "categoria": "FOMC",
+      "prob_yes": 36.5,
+      "variacao": -4.0,
+      "zscore": -3.76,
+      "magnitude": "Significativo",
+      "direcao": "queda",
+      "prob_antes": 40.5,
+      "prob_depois": 36.5,
+      "volume": 46052653.992844,
+      "end_date": "2025-10-29",
+      "resultado": "No",
+      "narrativa": "<p>Investidores mudaram rapidamente suas apostas sobre a política monetária americana. A probabilidade de que o Fed vai manter os juros sem alteração na reunião de outubro 2025 caiu de <b>40.5%</b> para <b>36.5%</b> em apenas um dia, uma variação cerca de <b>4</b> vezes maior do que o comportamento normal deste contrato.</p><p>Este contrato mede a expectativa do mercado sobre a estabilidade da taxa de juros do Federal Reserve. A queda abrupta sugere que os investidores agora veem uma maior probabilidade de alguma ação por parte do Fed — seja um corte ou um aumento — em vez de manter a política monetária inalterada. Com um volume negociado de <b>US$ 46,052,654</b>, o sinal reflete uma convicção significativa, embora o mercado tenha, no final, errado a aposta sobre o desfecho.</p><p>Para o Brasil, a menor expectativa de estabilidade na política monetária dos EUA pode gerar incerteza nos mercados globais. Isso pode impactar a percepção de risco para o país, influenciando a cotação do real frente ao dólar e, potencialmente, as decisões do Copom sobre a taxa Selic, que busca equilibrar a inflação interna com o cenário externo.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "93649474745035786731233919003082633017639813911207879453624389467235918905276",
+      "gerado_em": "2026-05-31T22:40:58.110548+00:00"
+    },
+    {
+      "id": "4d7683592b5e",
+      "data": "2025-06-16",
+      "questao": "Will Bitcoin reach $200,000 by December 31, 2025?",
+      "questao_pt": "O Bitcoin vai atingir US$ 200000?",
+      "evento": "What price will Bitcoin hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 17.5,
+      "variacao": 5.0,
+      "zscore": 3.76,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 12.5,
+      "prob_depois": 15.5,
+      "volume": 19275707.736605,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Bitcoin atingir <b>US$ 200000</b> subiu <b>5.0</b> pontos percentuais, passando de <b>12.5%</b> para <b>17.5%</b>. Este movimento representa uma variação cerca de <b>4</b> vezes fora do padrão histórico deste contrato.</p><p>Este contrato mede a confiança do mercado na valorização extrema do Bitcoin. O salto na probabilidade, de <b>12.5%</b> para <b>17.5%</b>, e a posterior correção para <b>15.5%</b> três dias depois, sugere um otimismo temporário dos investidores, possivelmente impulsionado por notícias ou análises de curto prazo. O volume total negociado no contrato foi de <b>US$ 19.275.708</b>, e, no final, o mercado errou a aposta.</p><p>Para investidores brasileiros, um aumento na expectativa de valorização do Bitcoin pode incentivar a entrada de capital em exchanges locais, aumentando a liquidez. Contudo, a volatilidade implícita em apostas de alta extrema exige cautela, especialmente em um cenário de regulação ainda em desenvolvimento pela CVM.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 85,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 15,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "85949163243245471221790979452091560100141884930227668573477517865165344048388",
+      "gerado_em": "2026-05-31T23:03:33.503380+00:00"
+    },
+    {
+      "id": "511a614fa952",
+      "data": "2025-05-09",
+      "questao": "Will Ethereum hit $5,000 by December 31?",
+      "questao_pt": "O Ethereum vai atingir US$ 5.000 até o final do ano?",
+      "evento": "What price will Ethereum hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 26.5,
+      "variacao": 8.0,
+      "zscore": 3.8,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 18.0,
+      "prob_depois": 24.0,
+      "volume": 18467737.400303,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Ethereum atingir US$ 5.000 até o final do ano subiu <b>8.0</b> pontos percentuais, passando de <b>18.0%</b> para <b>26.5%</b>, uma variação que é cerca de <b>4</b> vezes fora do padrão histórico deste contrato. Essa mudança súbita reflete a confiança renovada dos investidores na capacidade do Ethereum de alcançar esse marco até dezembro. A probabilidade inicial de <b>18.0%</b> havia indicado um ceticismo moderado, mas o salto para <b>26.5%</b> sugere um aumento significativo na expectativa de que o Ethereum possa superar a barreira dos US$ 5.000.</p>\n\n<p>Esse contrato mede a confiança do mercado na capacidade do Ethereum de atingir um preço específico em um prazo determinado, o que pode indicar a percepção geral dos investidores sobre o potencial de crescimento da criptomoeda. A variação na probabilidade sugere que os investidores estão cada vez mais otimistas sobre o desempenho do Ethereum, o que pode ser influenciado por fatores como adotamento crescente, melhorias tecnológicas e mudanças regulatórias. Com um volume total de <b>US$ 18,467,737</b>, esse contrato não apenas reflete a opinião dos investidores, mas também representa um valor significativo em termos de apostas financeiras. No entanto, o resultado final mostrou que o mercado errou a aposta, o que pode apontar para uma sobrevalorização ou uma leitura excessivamente otimista do potencial do Ethereum.</p>\n\n<p>A mudança na percepção do mercado sobre o Ethereum pode ter implicações para os investidores brasileiros, especialmente aqueles que estão expostos ao mercado de criptomoedas. O aumento na confiança no Ethereum pode levar a um aumento no interesse e no investimento em criptomoedas no Brasil, o que pode afetar a dinâmica do mercado local. Além disso, a variação no preço do Ethereum pode influenciar a competitividade das exchanges brasileiras e a regulação da criptomoeda no país, tornando o monitoramento desses movimentos essencial para entender o impacto no mercado financeiro nacional.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 85,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 15,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 1.291309732s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "96638575418189284731461006608299472691495172793493062289677934142140726427384",
+      "gerado_em": "2026-05-31T23:43:01.840597+00:00"
+    },
+    {
+      "id": "ac305a78d3b4",
+      "data": "2025-04-07",
+      "questao": "Will Bitcoin reach $130,000 by December 31, 2025?",
+      "questao_pt": "O Bitcoin vai atingir US$ 130.000 até o final de 2025?",
+      "evento": "What price will Bitcoin hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 24.0,
+      "variacao": -6.5,
+      "zscore": -3.71,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 30.0,
+      "prob_depois": 28.5,
+      "volume": 13211425.234841,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>As expectativas de que o Bitcoin vai atingir US$ 130.000 até o final de 2025 caíram bruscamente, com a probabilidade de ocorrência passando de <b>30.0%</b> para <b>24.0%</b>, uma queda de <b>6.5</b> pontos percentuais. Este movimento representa uma variação cerca de <b>4</b> vezes fora do padrão histórico deste contrato.</p><p>Este contrato mede a confiança dos investidores na valorização extrema do Bitcoin em um horizonte de tempo específico. A queda na probabilidade sugere que o otimismo em relação a um salto tão expressivo no preço da criptomoeda diminuiu significativamente. Após o sinal, a probabilidade se recuperou ligeiramente para <b>28.5%</b>. O contrato movimentou um volume total de <b>US$ 13.211.425</b>, mas, no final, o mercado errou a aposta.</p><p>Para o mercado cripto brasileiro, a revisão para baixo das expectativas de que o Bitcoin vai atingir <b>US$ 130.000</b> até o final de 2025, refletida na queda de <b>6.5</b> pontos percentuais, pode desacelerar a entrada de novos investidores. A percepção de um teto de preço mais baixo no curto a médio prazo pode levar a uma postura mais cautelosa entre os potenciais compradores.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "70455106433105725093003807079135685186309776081399075740142938507518314484366",
+      "gerado_em": "2026-06-02T02:49:26.304543+00:00"
+    },
+    {
+      "id": "3fc2cabb6e05",
+      "data": "2025-03-08",
+      "questao": "Will Ethereum dip to $1,000 by December 31?",
+      "questao_pt": "O Ethereum vai cair a US$ 1.000 até o final do ano?",
+      "evento": "What price will Ethereum hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 26.5,
+      "variacao": 8.5,
+      "zscore": 3.7,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 17.5,
+      "prob_depois": 25.0,
+      "volume": 3105396.354215,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Ethereum cair a <b>US$ 1.000</b> até o final do ano subiu drasticamente. De uma base de <b>17.5%</b>, a chance de o Ethereum atingir esse patamar de preço disparou para <b>26.5%</b>, uma variação de <b>8.5</b> pontos percentuais. Este movimento representa uma atividade cerca de 4 vezes fora do padrão histórico deste contrato.</p>\n\n<p>Este contrato mede a expectativa do mercado sobre uma desvalorização significativa do Ethereum. A alta na probabilidade de queda pode indicar uma crescente cautela entre os investidores ou a percepção de fatores macroeconômicos que poderiam pressionar o preço da segunda maior criptomoeda. Com um volume negociado de <b>US$ 3.105.396</b>, o mercado demonstrou um interesse considerável neste cenário. Embora a probabilidade tenha se estabilizado em <b>25.0%</b> três dias após o sinal, o mercado acabou errando a aposta, já que o Ethereum não atingiu <b>US$ 1.000</b> até o final do ano.</p>\n\n<p>Para investidores brasileiros, a alta de <b>8.5</b> pontos percentuais na probabilidade de queda do Ethereum pode refletir uma preocupação com a volatilidade do mercado cripto. Isso, por sua vez, sugere que alguns podem estar considerando a liquidação de posições alavancadas, especialmente aqueles que concentram seus portfólios em Bitcoin e Ethereum, buscando reduzir riscos em um cenário de incerteza.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "82510958209410597815455827415233906018439939153028999177265735407231980907130",
+      "gerado_em": "2026-06-02T02:50:39.338779+00:00"
+    },
+    {
+      "id": "960eb77b2563",
+      "data": "2025-03-02",
+      "questao": "Will Bitcoin reach $150,000 by December 31, 2025?",
+      "questao_pt": "O Bitcoin vai atingir US$ 150.000 até o final de 2025?",
+      "evento": "What price will Bitcoin hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 36.5,
+      "variacao": 5.0,
+      "zscore": 3.74,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "alta",
+      "prob_antes": 30.5,
+      "prob_depois": 38.5,
+      "volume": 16414060.383217,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Bitcoin atingir <b>US$ 150.000</b> até o final de 2025 subiu <b>5.0</b> pontos percentuais, passando de <b>30.5%</b> para <b>36.5%</b>. Este movimento representa uma variação cerca de <b>4</b> vezes fora do padrão histórico deste contrato, indicando uma mudança significativa na percepção dos investidores sobre o futuro da principal criptomoeda.</p><p>Este contrato mede a confiança do mercado na valorização expressiva do Bitcoin nos próximos anos. A alta na probabilidade de atingir <b>US$ 150.000</b> sugere que os investidores estão mais otimistas com o potencial de crescimento da criptomoeda. Após o sinal, a probabilidade continuou a subir, alcançando <b>38.5%</b> três dias depois, o que pode refletir uma tendência de alta sustentada na confiança. Com um volume total negociado de <b>US$ 16.414.060</b>, o mercado demonstrou forte engajamento, mas, no final, a aposta de que o Bitcoin atingiria <b>US$ 150.000</b> até o final de 2025 não se concretizou.</p><p>Para o Brasil, a alta de <b>5.0</b> pontos percentuais na probabilidade de o Bitcoin atingir <b>US$ 150.000</b> pode ser interpretada por investidores brasileiros — especialmente os cerca de <b>15</b> milhões com conta em exchanges nacionais — como uma validação de tendência de alta. Isso, por sua vez, pode impactar o volume de negociação doméstico, com um possível aumento na compra de Bitcoin por parte de quem busca aproveitar o que se percebe como um momento de valorização.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 88,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 18,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "87484108660213248881541352117231933897620313251765619093583161767567942237143",
+      "gerado_em": "2026-06-02T02:48:14.985150+00:00"
+    },
+    {
+      "id": "a47648ba28f1",
+      "data": "2025-02-24",
+      "questao": "Will Ethereum hit $6,000 by December 31?",
+      "questao_pt": "O Ethereum vai atingir US$ 6.000 até o final do ano?",
+      "evento": "What price will Ethereum hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 18.5,
+      "variacao": -4.5,
+      "zscore": -3.79,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.8×) — variação 3.8 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 24.5,
+      "prob_depois": 21.0,
+      "volume": 9995564.195892,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Ethereum atingir US$ 6.000 até o final do ano caiu <b>6.0%</b> em relação ao seu valor inicial, atingindo <b>18.5%</b> após estar em <b>24.5%</b> três dias antes, com uma variação de <b>6.0%</b> não, mas caiu <b>6.0%</b> não, a variação foi de <b>4.5%</b> pontos percentuais. Essa mudança foi cerca de <b>4</b> vezes fora do padrão histórico deste contrato, indicando um movimento significativo no mercado.</p>\n<p>Esse contrato mede a confiança dos investidores de que o Ethereum alcançará o valor de US$ 6.000 até o final do ano. A redução na probabilidade pode indicar que os investidores estão perdendo a confiança nesse cenário, o que sugere que o mercado está se tornando mais cético em relação ao desempenho do Ethereum. Com um volume total de <b>US$ 9.995.564</b>, esse contrato mostra que os investidores estão dispostos a apostar grandes somas em suas previsões. No entanto, como o resultado final mostrou que o mercado errou a aposta, isso pode apontar para uma falta de precisão nas previsões dos investidores.</p>\n<p>A queda na probabilidade de o Ethereum atingir US$ 6.000 pode impactar o mercado de criptomoedas no Brasil, afetando a confiança dos investidores brasileiros em exchanges e regulação CVM. Além disso, a variação no valor do Ethereum pode influenciar o custo de importações e a inflação doméstica, uma vez que as flutuações nos preços das criptomoedas podem afetar a economia como um todo. Isso pode levar a uma maior volatilidade no mercado de criptomoedas e exigir uma regulação mais rigorosa por parte da CVM.</p>",
+      "modelo_usado": "Llama 3.3 70B (Groq)",
+      "score": 96,
+      "score_detalhes": {
+        "ancoragem_factual": 30,
+        "extensao": 25,
+        "contexto_economico": 21,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "erro: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 39.681982888s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '39s'}]}}"
+        },
+        {
+          "modelo": "Llama 3.3 70B (Groq)",
+          "status": "ok"
+        }
+      ],
+      "token_id": "81425397446351426621727450375895254607015946433493851514616485979278175609514",
+      "gerado_em": "2026-05-31T23:58:23.096593+00:00"
+    },
+    {
+      "id": "c81f9ee6a788",
+      "data": "2025-02-01",
+      "questao": "Will Ethereum hit $7,000 by December 31?",
+      "questao_pt": "O Ethereum vai atingir US$ 7.000 até o final do ano?",
+      "evento": "What price will Ethereum hit in 2025?",
+      "categoria": "Cripto",
+      "prob_yes": 22.5,
+      "variacao": -5.5,
+      "zscore": -3.7,
+      "magnitude": "Significativo",
+      "magnitude_descricao": "Sinal relevante (z=3.7×) — variação 3.7 vezes acima do comportamento normal deste contrato",
+      "direcao": "queda",
+      "prob_antes": 28.0,
+      "prob_depois": 25.5,
+      "volume": 7570762.533718,
+      "end_date": "2025-12-31",
+      "resultado": "No",
+      "narrativa": "<p>A probabilidade de o Ethereum atingir <b>US$ 7.000</b> até o final do ano caiu de <b>28.0%</b> para <b>22.5%</b>, uma variação de <b>5.5</b> pontos percentuais. Esse movimento foi cerca de <b>4</b> vezes fora do padrão histórico deste contrato, sinalizando uma revisão significativa nas expectativas do mercado.</p><p>Este contrato mede a confiança dos investidores na valorização do Ethereum para um patamar elevado. A queda na probabilidade, que se estabilizou em <b>25.5%</b> três dias depois do sinal, sugere que o mercado revisou para baixo suas projeções para a criptomoeda. Com um volume negociado de <b>US$ 7.570.763</b>, o movimento reflete uma mudança coletiva de percepção. No final, o mercado errou a aposta, já que o Ethereum não atingiu <b>US$ 7.000</b>.</p><p>Para o mercado cripto brasileiro, essa revisão para baixo nas expectativas de um preço alto para o Ethereum pode desacelerar a entrada de novos investidores. A redução de <b>5.5</b> pontos percentuais na probabilidade de atingir <b>US$ 7.000</b> aponta para um cenário onde o otimismo excessivo é contido, o que pode levar a uma postura mais cautelosa por parte de quem busca retornos rápidos em ativos digitais.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 85,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 15,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "66776654258002694324853229694339306737497274534009979978324520345248856607706",
+      "gerado_em": "2026-06-02T02:50:18.350138+00:00"
+    },
+    {
+      "id": "79a068e120e2",
+      "data": "2024-09-17",
+      "questao": "Fed decreases interest rates by 50 bps after November 2024 meeting?",
+      "questao_pt": "O Fed vai cortar os juros em 50 pontos-base na reunião de novembro 2024?",
+      "evento": "Fed Interest Rates: November 2024",
+      "categoria": "FOMC",
+      "prob_yes": 38.5,
+      "variacao": -6.0,
+      "zscore": -3.74,
+      "magnitude": "Significativo",
+      "direcao": "queda",
+      "prob_antes": 44.0,
+      "prob_depois": 41.5,
+      "volume": 8393267.791414,
+      "end_date": "2024-11-07",
+      "resultado": "No",
+      "narrativa": "<p>Investidores mudaram rapidamente suas expectativas sobre a decisão do Federal Reserve. A probabilidade de que o Fed cortaria os juros em 50 pontos-base na reunião de novembro 2024 caiu de <b>44.0%</b> para <b>38.5%</b> em apenas três dias, uma variação cerca de <b>4</b> vezes maior do que o comportamento normal deste contrato.</p><p>Este contrato mede a confiança do mercado em um corte agressivo de juros pelo banco central americano. A queda na probabilidade sugere que os investidores estão menos confiantes em uma flexibilização monetária tão significativa por parte do Fed, possivelmente reavaliando dados econômicos ou declarações de autoridades. Com um volume total negociado de <b>US$ 8,393,268</b>, o sinal teve liquidez considerável. No entanto, o mercado errou a aposta, já que o Fed não realizou o corte de <b>50</b> pontos-base na data.</p><p>Para o Brasil, uma menor expectativa de cortes agressivos nos juros americanos pode significar pressões para o Banco Central brasileiro (Copom). Com o Fed mantendo uma postura mais cautelosa, o Copom pode ter menos espaço para acelerar seus próprios cortes de juros, impactando o custo do crédito e a valorização do real frente ao dólar.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 95,
+      "score_detalhes": {
+        "ancoragem_factual": 25,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "72373922484601612837855188905332325479292726362975414708210444785555968287015",
+      "gerado_em": "2026-05-31T22:42:05.430464+00:00"
+    },
+    {
+      "id": "0ee49084ba18",
+      "data": "2024-08-12",
+      "questao": "No change in Fed interest rates after 2024 November meeting?",
+      "questao_pt": "O Fed vai manter os juros sem alteração na reunião de novembro de 2024?",
+      "evento": "Fed Interest Rates: November 2024",
+      "categoria": "FOMC",
+      "prob_yes": 34.5,
+      "variacao": 15.5,
+      "zscore": 3.76,
+      "magnitude": "Significativo",
+      "direcao": "alta",
+      "prob_antes": 19.0,
+      "prob_depois": 21.0,
+      "volume": 7995206.758932,
+      "end_date": "2024-11-07",
+      "resultado": "No",
+      "narrativa": "<p>Investidores mudaram rapidamente suas apostas sobre \"O Fed vai manter os juros sem alteração na reunião de novembro de 2024?\". A probabilidade de o Federal Reserve não alterar as taxas de juros saltou de <b>19.0%</b> para <b>34.5%</b> em apenas um dia, um movimento cerca de <b>4</b> vezes maior do que o comportamento normal deste contrato.</p><p>Este contrato mede a expectativa do mercado sobre a política monetária do banco central americano. O aumento súbito na probabilidade de manutenção dos juros pode indicar uma percepção de enfraquecimento da economia dos EUA ou uma postura mais cautelosa por parte do Fed, sugerindo que o ciclo de aperto monetário pode estar perdendo força. Com um volume total negociado de <b>US$ 7,995,207</b>, o sinal refletiu uma convicção relevante, embora, no final, o mercado tenha errado a aposta sobre a decisão do Fed.</p><p>Para o Brasil, uma postura menos agressiva do Fed pode aliviar a pressão sobre o câmbio, permitindo que o Real se valorize ou sofra menos desvalorização frente ao dólar. Isso também pode dar mais flexibilidade ao Banco Central brasileiro para calibrar suas próprias decisões sobre a taxa Selic, potencialmente abrindo espaço para cortes futuros se a inflação interna permitir.</p>",
+      "modelo_usado": "Gemini 2.5 Flash",
+      "score": 80,
+      "score_detalhes": {
+        "ancoragem_factual": 10,
+        "extensao": 25,
+        "contexto_economico": 25,
+        "clareza": 20
+      },
+      "tentativas": [
+        {
+          "modelo": "Gemini 2.5 Flash",
+          "status": "ok"
+        }
+      ],
+      "token_id": "99693453180573360817239647658551491302597637631928074955157125575801041271704",
+      "gerado_em": "2026-05-31T22:40:47.228734+00:00"
+    }
+  ],
+  "serie": {
+    "token_id": "74018646712472971445258547247048869505144598783748525202442089895996249694683",
+    "questao": "Fed decreases interest rates by 50+ bps after December 2025 meeting?",
+    "questao_pt": "O Fed vai cortar os juros em 50 pontos-base ou mais na reunião de dezembro 2025?",
+    "dates": [
+      "31/07",
+      "01/08",
+      "02/08",
+      "03/08",
+      "04/08",
+      "05/08",
+      "06/08",
+      "07/08",
+      "08/08",
+      "09/08",
+      "10/08",
+      "11/08",
+      "12/08",
+      "13/08",
+      "14/08",
+      "15/08",
+      "16/08",
+      "17/08",
+      "18/08",
+      "19/08",
+      "20/08",
+      "21/08",
+      "22/08",
+      "23/08",
+      "24/08",
+      "25/08",
+      "26/08",
+      "27/08",
+      "28/08",
+      "29/08",
+      "30/08",
+      "31/08",
+      "01/09",
+      "02/09",
+      "03/09",
+      "04/09",
+      "05/09",
+      "06/09",
+      "07/09",
+      "08/09",
+      "09/09",
+      "10/09",
+      "11/09",
+      "12/09",
+      "13/09",
+      "14/09",
+      "15/09",
+      "16/09",
+      "17/09",
+      "18/09",
+      "19/09",
+      "20/09",
+      "21/09",
+      "22/09",
+      "23/09",
+      "24/09",
+      "25/09",
+      "26/09",
+      "27/09",
+      "28/09",
+      "29/09",
+      "30/09",
+      "01/10",
+      "02/10",
+      "03/10",
+      "04/10",
+      "05/10",
+      "06/10",
+      "07/10",
+      "08/10",
+      "09/10",
+      "10/10",
+      "11/10",
+      "12/10",
+      "13/10",
+      "14/10",
+      "15/10",
+      "16/10",
+      "17/10",
+      "18/10",
+      "19/10",
+      "20/10",
+      "21/10",
+      "22/10",
+      "23/10",
+      "24/10",
+      "25/10",
+      "26/10",
+      "27/10",
+      "28/10",
+      "29/10",
+      "30/10",
+      "31/10",
+      "01/11",
+      "02/11",
+      "03/11",
+      "04/11",
+      "05/11",
+      "06/11",
+      "07/11",
+      "08/11",
+      "09/11",
+      "10/11",
+      "11/11",
+      "12/11",
+      "13/11",
+      "14/11",
+      "15/11",
+      "16/11",
+      "17/11",
+      "18/11",
+      "19/11",
+      "20/11",
+      "21/11",
+      "22/11",
+      "23/11",
+      "24/11",
+      "25/11",
+      "26/11",
+      "27/11",
+      "28/11",
+      "29/11",
+      "30/11",
+      "01/12",
+      "02/12",
+      "03/12",
+      "04/12",
+      "05/12",
+      "06/12",
+      "07/12",
+      "08/12",
+      "09/12",
+      "10/12"
+    ],
+    "probs": [
+      11.0,
+      7.0,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      5.5,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      6.0,
+      6.0,
+      6.0,
+      6.5,
+      6.0,
+      6.0,
+      6.0,
+      6.5,
+      6.5,
+      6.5,
+      5.5,
+      5.5,
+      5.5,
+      5.5,
+      5.5,
+      5.5,
+      6.5,
+      6.0,
+      5.0,
+      6.5,
+      6.5,
+      6.5,
+      6.5,
+      9.0,
+      9.5,
+      10.0,
+      10.5,
+      9.5,
+      7.0,
+      6.0,
+      5.5,
+      6.5,
+      6.5,
+      6.5,
+      7.5,
+      6.5,
+      6.5,
+      5.5,
+      5.5,
+      5.5,
+      5.5,
+      6.5,
+      6.5,
+      5.5,
+      5.5,
+      4.5,
+      5.0,
+      5.0,
+      5.5,
+      6.5,
+      6.5,
+      7.5,
+      7.0,
+      6.5,
+      6.5,
+      6.5,
+      5.5,
+      5.0,
+      7.5,
+      9.5,
+      9.5,
+      6.0,
+      6.0,
+      6.5,
+      5.5,
+      6.0,
+      5.5,
+      4.5,
+      4.5,
+      4.5,
+      3.7,
+      1.6,
+      3.8,
+      2.4,
+      2.3,
+      2.6,
+      2.4,
+      3.0,
+      1.8,
+      2.1,
+      2.6,
+      2.4,
+      2.2,
+      2.6,
+      2.4,
+      2.2,
+      1.6,
+      1.8,
+      2.0,
+      2.1,
+      1.8,
+      2.2,
+      1.8,
+      1.4,
+      2.1,
+      2.0,
+      1.8,
+      1.6,
+      1.2,
+      1.2,
+      1.0,
+      1.2,
+      1.2,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.6,
+      0.5,
+      0.6,
+      0.8,
+      0.5,
+      0.0
+    ],
+    "zscores": [
+      -0.5,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.5,
+      0.0,
+      0.0,
+      -0.5,
+      0.0,
+      0.0,
+      -0.5,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.5,
+      0.0,
+      -0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.5,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0,
+      0.0,
+      -0.05,
+      -0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.1,
+      0.4,
+      -0.05,
+      -0.1,
+      0.3,
+      0.0,
+      -0.1,
+      -0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.05,
+      0.0,
+      0.0,
+      -0.1,
+      0.0,
+      -0.2,
+      0.0,
+      -0.1,
+      0.0,
+      0.1,
+      0.0,
+      -0.25,
+      -0.2,
+      -0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Signal - Inteligência de Mercados Preditivos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/signal.css" />
+</head>
+<body>
+<div class="app">
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="logo">
+      <div class="logo-mark">
+        <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      </div>
+      <span class="logo-text">Signal</span>
+    </div>
+    <div class="search-wrap">
+      <svg class="si" width="14" height="14" viewBox="0 0 16 16" fill="none">
+        <circle cx="6.5" cy="6.5" r="5" stroke="white" stroke-width="1.5"/>
+        <path d="M10.5 10.5L14 14" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input id="search" type="text" placeholder="Buscar sinais, mercados..." autocomplete="off" />
+    </div>
+    <div class="topbar-right">
+      <span class="live-txt">
+        <span class="live-dot"></span>
+        Pipeline ativo
+      </span>
+      <span id="top-ts"></span>
+    </div>
+  </header>
+
+  <div class="body">
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <span class="sid-label">Módulos</span>
+      <button class="nb active" data-mod="feed">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        <span>Feed Sinais</span>
+      </button>
+      <button class="nb" data-mod="charts">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+        <span>Gráficos</span>
+      </button>
+      <button class="nb" data-mod="cal">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <span>Calibração</span>
+      </button>
+
+      <div id="filter-section">
+        <span class="sid-label">Busca Rápida</span>
+        <button class="nb" data-quick="Fed">Fed Rate</button>
+        <button class="nb" data-quick="Bitcoin">Bitcoin</button>
+        <button class="nb" data-quick="Ethereum">Ethereum</button>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="view-container">
+
+      <!-- Feed de Sinais -->
+      <div id="view-feed" class="view active">
+        <!-- Busca rápida mobile (chips horizontais) -->
+        <div class="quick-chips" id="quick-chips-mobile">
+          <button class="qc-btn" data-quick="Fed">Fed Rate</button>
+          <button class="qc-btn" data-quick="Bitcoin">Bitcoin</button>
+          <button class="qc-btn" data-quick="Ethereum">Ethereum</button>
+        </div>
+        <div class="state-box" id="feed-loading">
+          <div class="spinner"></div>
+          <p>A carregar dados do pipeline…</p>
+        </div>
+      </div>
+
+      <!-- Gráficos -->
+      <div id="view-charts" class="view">
+        <div class="panel-head">
+          <div class="panel-title">Séries Temporais e Anomalias</div>
+          <div class="panel-sub">Contexto de probabilidade e z-score por evento detectado.</div>
+        </div>
+        <div class="chart-select-row">
+          <label>Evento:</label>
+          <select id="chart-ev-sel"></select>
+        </div>
+        <div class="charts-grid">
+          <div class="chart-box">
+            <div class="chart-lbl">
+              Probabilidade Implícita p(t)
+              <span id="chart-q-label">-</span>
+            </div>
+            <div class="chart-area">
+              <canvas id="c-prob" aria-label="Probabilidade implícita antes, durante e após o evento."></canvas>
+            </div>
+          </div>
+          <div class="chart-box">
+            <div class="chart-lbl">
+              Desvios Padrão (Z-Score)
+              <span id="chart-z-label">-</span>
+            </div>
+            <div class="chart-area">
+              <canvas id="c-z" aria-label="Z-score do evento com threshold marcado."></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="chart-info-row" id="chart-info-row">
+          <div class="cinfo"><div class="cinfo-lbl">Prob. Antes</div><div class="cinfo-val" id="ci-antes">-</div></div>
+          <div class="cinfo"><div class="cinfo-lbl">Prob. no Evento</div><div class="cinfo-val" id="ci-ev">-</div></div>
+          <div class="cinfo"><div class="cinfo-lbl">Prob. Depois</div><div class="cinfo-val" id="ci-depois">-</div></div>
+        </div>
+      </div>
+
+      <!-- Calibração -->
+      <div id="view-cal" class="view">
+        <div class="panel-head">
+          <div class="panel-title">Calibração do Modelo</div>
+          <div class="panel-sub">Métricas de qualidade preditiva do pipeline e análise de sensibilidade do threshold.</div>
+        </div>
+        <div class="cal-grid">
+          <div class="cal-card featured">
+            <div class="cal-label">Brier Score</div>
+            <div class="cal-value" id="cal-brier">-</div>
+            <div class="cal-note" id="cal-brier-note">Carregando…</div>
+            <div class="cal-baseline">
+              <div class="cal-baseline-bar">
+                <div class="cal-baseline-fill" id="cal-bs-bar" style="width:0%"></div>
+              </div>
+              <span class="cal-baseline-lbl">baseline: 0,250</span>
+            </div>
+          </div>
+          <div class="cal-card">
+            <div class="cal-label">Parâmetros do Pipeline</div>
+            <div style="display:flex;flex-direction:column;gap:12px;margin-top:4px">
+              <div>
+                <div class="cal-label" style="margin-bottom:3px">Threshold z*</div>
+                <div class="cal-value neutral" id="cal-thresh" style="font-size:26px">-</div>
+              </div>
+              <div>
+                <div class="cal-label" style="margin-bottom:3px">Janela (dias)</div>
+                <div class="cal-value neutral" id="cal-janela" style="font-size:26px">-</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cal-meta-grid">
+          <div class="cal-meta"><div class="lbl">Eventos no Feed</div><div class="val" id="cm-events">-</div><div class="sub">signals detectados</div></div>
+          <div class="cal-meta"><div class="lbl">Com Desfecho</div><div class="val" id="cm-closed">-</div><div class="sub">contratos encerrados</div></div>
+          <div class="cal-meta"><div class="lbl">Fallbacks</div><div class="val" id="cm-fb">-</div><div class="sub">modelos alternativos</div></div>
+        </div>
+        <div class="sens-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>z* Threshold</th>
+                <th>Sinais Brutos</th>
+                <th>Sinais Únicos</th>
+                <th>Vol ≥ $1M</th>
+                <th>Cobertura Líquida</th>
+              </tr>
+            </thead>
+            <tbody id="sens-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+    </main>
+  </div><!-- /.body -->
+
+  <!-- Bottom Nav (visível apenas em mobile via CSS) -->
+  <nav class="bottom-nav" id="bottom-nav">
+    <button class="bn-btn active" data-mod="feed">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+      Feed
+    </button>
+    <button class="bn-btn" data-mod="charts">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+      Gráficos
+    </button>
+    <button class="bn-btn" data-mod="cal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      Calibração
+    </button>
+  </nav>
+
+</div><!-- /.app -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="js/signal.js"></script>
+</body>
+</html>
